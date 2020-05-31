@@ -1,0 +1,7 @@
+<?xml version = "1.0"?>
+<function-mapping>
+   <function particle='snort' type='CVE'>CVE-2019-9182</function>
+   <function particle='snort' type='CVE'>CVE-2018-1234</function>
+   <function particle='snort' type='CAPEC'>CAPEC-168</function>
+   <function particle='sshd' type='CAPEC'>CAPEC-168</function>
+</function-mapping>

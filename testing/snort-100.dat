@@ -1,0 +1,100 @@
+Apr 29 14:19:10 localhost snort: [1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252
+Apr 29 14:19:10 localhost snort: [1:366:11] PROTOCOL-ICMP PING Unix [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252
+Apr 29 14:19:10 localhost snort: [1:29456:3] PROTOCOL-ICMP Unusual PING detected [Classification: Information Leak] [Priority: 2] {ICMP} 192.168.1.100 -> 192.168.1.252
+Apr 29 14:19:10 localhost snort: [1:384:8] PROTOCOL-ICMP PING [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252
+Apr 29 14:19:10 localhost snort: [1:408:8] PROTOCOL-ICMP Echo Reply [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.252 -> 192.168.1.100
+Apr 29 14:19:11 localhost snort: [1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252
+Apr 29 14:19:11 localhost snort: [1:366:11] PROTOCOL-ICMP PING Unix [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252
+Apr 29 14:19:11 localhost snort: [1:29456:3] PROTOCOL-ICMP Unusual PING detected [Classification: Information Leak] [Priority: 2] {ICMP} 192.168.1.100 -> 192.168.1.252
+Apr 29 14:19:11 localhost snort: [1:384:8] PROTOCOL-ICMP PING [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252
+Apr 29 14:19:11 localhost snort: [1:408:8] PROTOCOL-ICMP Echo Reply [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.252 -> 192.168.1.100
+Apr 29 14:19:12 localhost snort: [1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252
+Apr 29 14:19:12 localhost snort: [1:366:11] PROTOCOL-ICMP PING Unix [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252
+Apr 29 14:19:12 localhost snort: [1:29456:3] PROTOCOL-ICMP Unusual PING detected [Classification: Information Leak] [Priority: 2] {ICMP} 192.168.1.100 -> 192.168.1.252
+Apr 29 14:19:12 localhost snort: [1:384:8] PROTOCOL-ICMP PING [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252
+Apr 29 14:19:12 localhost snort: [1:408:8] PROTOCOL-ICMP Echo Reply [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.252 -> 192.168.1.100
+Apr 29 14:19:13 localhost snort: [1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252
+Apr 29 14:19:13 localhost snort: [1:366:11] PROTOCOL-ICMP PING Unix [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252
+Apr 29 14:19:13 localhost snort: [1:29456:3] PROTOCOL-ICMP Unusual PING detected [Classification: Information Leak] [Priority: 2] {ICMP} 192.168.1.100 -> 192.168.1.252
+Apr 29 14:19:13 localhost snort: [1:384:8] PROTOCOL-ICMP PING [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252
+Apr 29 14:19:13 localhost snort: [1:408:8] PROTOCOL-ICMP Echo Reply [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.252 -> 192.168.1.100
+Apr 29 14:24:09 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64173 -> 192.168.1.252:22
+Apr 29 14:24:09 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64173 -> 192.168.1.252:199
+Apr 29 14:24:09 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64173 -> 192.168.1.252:995
+Apr 29 14:24:09 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64173 -> 192.168.1.252:8080
+Apr 29 14:24:09 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64173 -> 192.168.1.252:21
+Apr 29 14:24:09 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64173 -> 192.168.1.252:135
+Apr 29 14:24:09 localhost snort: [1:1257:15] SERVER-OTHER Winnuke attack [Classification: Attempted Denial of Service] [Priority: 2] {TCP} 192.168.1.100:64173 -> 192.168.1.252:135
+Apr 29 14:24:09 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64173 -> 192.168.1.252:113
+Apr 29 14:24:09 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64173 -> 192.168.1.252:1720
+Apr 29 14:24:09 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64173 -> 192.168.1.252:111
+Apr 29 14:24:10 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64174 -> 192.168.1.252:135
+Apr 29 14:24:10 localhost snort: [1:1257:15] SERVER-OTHER Winnuke attack [Classification: Attempted Denial of Service] [Priority: 2] {TCP} 192.168.1.100:64174 -> 192.168.1.252:135
+Apr 29 14:24:10 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64174 -> 192.168.1.252:21
+Apr 29 14:24:10 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64174 -> 192.168.1.252:8080
+Apr 29 14:24:10 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64174 -> 192.168.1.252:995
+Apr 29 14:24:11 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64173 -> 192.168.1.252:110
+Apr 29 14:24:11 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64173 -> 192.168.1.252:139
+Apr 29 14:24:11 localhost snort: [1:1257:15] SERVER-OTHER Winnuke attack [Classification: Attempted Denial of Service] [Priority: 2] {TCP} 192.168.1.100:64173 -> 192.168.1.252:139
+Apr 29 14:24:11 localhost snort: [1:1257:15] SERVER-OTHER Winnuke attack [Classification: Attempted Denial of Service] [Priority: 2] {TCP} 192.168.1.100:64174 -> 192.168.1.252:139
+Apr 29 14:24:14 server-01 snort[2019]: [1:10078:3] Nmap Connect Tree Scan {TCP} 192.168.1.100:64174 -> 192.168.1.252:6001
+Apr 29 14:24:14 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64174 -> 192.168.1.252:6001
+Apr 29 14:24:09 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64173 -> 192.168.1.252:111
+Apr 29 14:24:10 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64174 -> 192.168.1.252:135
+Apr 29 14:24:10 localhost snort: [1:1257:15] SERVER-OTHER Winnuke attack [Classification: Attempted Denial of Service] [Priority: 2] {TCP} 192.168.1.100:64174 -> 192.168.1.252:135
+Apr 29 14:24:10 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64174 -> 192.168.1.252:21
+Apr 29 14:24:10 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64174 -> 192.168.1.252:8080
+Apr 29 14:24:10 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64174 -> 192.168.1.252:995
+Apr 29 14:24:11 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64173 -> 192.168.1.252:110
+Apr 29 14:24:11 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64173 -> 192.168.1.252:139
+Apr 29 14:24:11 localhost snort: [1:1257:15] SERVER-OTHER Winnuke attack [Classification: Attempted Denial of Service] [Priority: 2] {TCP} 192.168.1.100:64173 -> 192.168.1.252:139
+Apr 29 14:19:10 localhost snort: [1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252
+Apr 29 14:19:10 localhost snort: [1:366:11] PROTOCOL-ICMP PING Unix [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252
+Apr 29 14:19:10 localhost snort: [1:29456:3] PROTOCOL-ICMP Unusual PING detected [Classification: Information Leak] [Priority: 2] {ICMP} 192.168.1.100 -> 192.168.1.252
+Apr 29 14:19:10 localhost snort: [1:384:8] PROTOCOL-ICMP PING [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252
+Apr 29 14:19:10 localhost snort: [1:408:8] PROTOCOL-ICMP Echo Reply [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.252 -> 192.168.1.100
+Apr 29 14:19:11 localhost snort: [1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252
+Apr 29 14:19:11 localhost snort: [1:366:11] PROTOCOL-ICMP PING Unix [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252
+Apr 29 14:19:11 localhost snort: [1:29456:3] PROTOCOL-ICMP Unusual PING detected [Classification: Information Leak] [Priority: 2] {ICMP} 192.168.1.100 -> 192.168.1.252
+Apr 29 14:19:11 localhost snort: [1:384:8] PROTOCOL-ICMP PING [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252
+Apr 29 14:19:11 localhost snort: [1:408:8] PROTOCOL-ICMP Echo Reply [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.252 -> 192.168.1.100
+Apr 29 14:19:12 localhost snort: [1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252
+Apr 29 14:19:12 localhost snort: [1:366:11] PROTOCOL-ICMP PING Unix [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252
+Apr 29 14:19:12 localhost snort: [1:29456:3] PROTOCOL-ICMP Unusual PING detected [Classification: Information Leak] [Priority: 2] {ICMP} 192.168.1.100 -> 192.168.1.252
+Apr 29 14:19:12 localhost snort: [1:384:8] PROTOCOL-ICMP PING [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252
+Apr 29 14:19:12 localhost snort: [1:408:8] PROTOCOL-ICMP Echo Reply [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.252 -> 192.168.1.100
+Apr 29 14:19:13 localhost snort: [1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252
+Apr 29 14:19:13 localhost snort: [1:366:11] PROTOCOL-ICMP PING Unix [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252
+Apr 29 14:19:13 localhost snort: [1:29456:3] PROTOCOL-ICMP Unusual PING detected [Classification: Information Leak] [Priority: 2] {ICMP} 192.168.1.100 -> 192.168.1.252
+Apr 29 14:19:13 localhost snort: [1:384:8] PROTOCOL-ICMP PING [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252
+Apr 29 14:19:13 localhost snort: [1:408:8] PROTOCOL-ICMP Echo Reply [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.252 -> 192.168.1.100
+Apr 29 14:24:09 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64173 -> 192.168.1.252:22
+Apr 29 14:24:09 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64173 -> 192.168.1.252:199
+Apr 29 14:24:09 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64173 -> 192.168.1.252:995
+Apr 29 14:24:09 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64173 -> 192.168.1.252:8080
+Apr 29 14:24:09 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64173 -> 192.168.1.252:21
+Apr 29 14:24:09 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64173 -> 192.168.1.252:135
+Apr 29 14:24:09 localhost snort: [1:1257:15] SERVER-OTHER Winnuke attack [Classification: Attempted Denial of Service] [Priority: 2] {TCP} 192.168.1.100:64173 -> 192.168.1.252:135
+Apr 29 14:24:09 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64173 -> 192.168.1.252:113
+Apr 29 14:24:09 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64173 -> 192.168.1.252:1720
+Apr 29 14:24:09 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64173 -> 192.168.1.252:111
+Apr 29 14:24:10 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64174 -> 192.168.1.252:135
+Apr 29 14:24:10 localhost snort: [1:1257:15] SERVER-OTHER Winnuke attack [Classification: Attempted Denial of Service] [Priority: 2] {TCP} 192.168.1.100:64174 -> 192.168.1.252:135
+Apr 29 14:24:10 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64174 -> 192.168.1.252:21
+Apr 29 14:24:10 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64174 -> 192.168.1.252:8080
+Apr 29 14:24:10 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64174 -> 192.168.1.252:995
+Apr 29 14:24:11 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64173 -> 192.168.1.252:110
+Apr 29 14:24:11 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64173 -> 192.168.1.252:139
+Apr 29 14:24:11 localhost snort: [1:1257:15] SERVER-OTHER Winnuke attack [Classification: Attempted Denial of Service] [Priority: 2] {TCP} 192.168.1.100:64173 -> 192.168.1.252:139
+Apr 29 14:24:11 localhost snort: [1:1257:15] SERVER-OTHER Winnuke attack [Classification: Attempted Denial of Service] [Priority: 2] {TCP} 192.168.1.100:64174 -> 192.168.1.252:139
+Apr 29 14:24:14 server-01 snort[2019]: [1:10078:3] Nmap Connect Tree Scan {TCP} 192.168.1.100:64174 -> 192.168.1.252:6001
+Apr 29 14:24:14 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64174 -> 192.168.1.252:6001
+Apr 29 14:24:09 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64173 -> 192.168.1.252:111
+Apr 29 14:24:10 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64174 -> 192.168.1.252:135
+Apr 29 14:24:10 localhost snort: [1:1257:15] SERVER-OTHER Winnuke attack [Classification: Attempted Denial of Service] [Priority: 2] {TCP} 192.168.1.100:64174 -> 192.168.1.252:135
+Apr 29 14:24:10 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64174 -> 192.168.1.252:21
+Apr 29 14:24:10 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64174 -> 192.168.1.252:8080
+Apr 29 14:24:10 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64174 -> 192.168.1.252:995
+Apr 29 14:24:11 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64173 -> 192.168.1.252:110
+Apr 29 14:24:11 localhost snort: [1:1000006:1] Nmap XMAS Tree Scan {TCP} 192.168.1.100:64173 -> 192.168.1.252:139
+Apr 29 14:24:11 localhost snort: [1:1257:15] SERVER-OTHER Winnuke attack [Classification: Attempted Denial of Service] [Priority: 2] {TCP} 192.168.1.100:64173 -> 192.168.1.252:139

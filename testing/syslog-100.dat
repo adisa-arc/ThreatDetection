@@ -1,0 +1,100 @@
+Apr 29 12:58:45 server-192.178.67.1 dbus[5400]: [system] Activating service name='org.kde.powerdevil.backlighthelper' (using servicehelper)
+Apr 29 12:58:45 server-192.178.67.1 dbus[5400]: [system] Successfully activated service 'org.kde.powerdevil.backlighthelper'
+Apr 29 12:58:57 server-192.178.67.1 dbus[5400]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+Apr 29 12:01:01 server-192.178.67.1 systemd: Started Session 2 of user root.
+Apr 29 12:23:02 server-192.178.67.1 systemd: Removed slice User Slice of root.
+Apr 29 12:58:28 server-192.178.67.1 systemd: Created slice User Slice of ajcblyth.
+Apr 29 12:58:28 server-192.178.67.1 systemd-logind: New session 3 of user ajcblyth.
+Apr 29 12:58:28 server-192.178.67.1 systemd: Started Session 3 of user ajcblyth.
+Apr 29 12:58:57 server-192.178.67.1 dbus[5400]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+Apr 29 12:58:57 server-192.178.67.1 systemd-logind: Removed session c1.
+Apr 29 12:58:57 server-192.178.67.1 systemd: Removed slice User Slice of gdm.
+Apr 29 13:01:01 server-192.178.67.1 systemd: Created slice User Slice of root.
+Apr 29 13:01:01 server-192.178.67.1 systemd: Started Session 4 of user root.
+Apr 29 13:01:01 server-192.178.67.1 systemd: Removed slice User Slice of root.
+Apr 29 13:13:32 server-192.178.67.1 systemd-logind: New session 5 of user ajcblyth.
+Apr 29 13:13:32 server-192.178.67.1 systemd: Started Session 5 of user ajcblyth.
+Apr 29 13:13:35 server-192.178.67.1 systemd-logind: Removed session 5.
+Apr 29 13:17:47 server-192.178.67.1 systemd: Stopping Command Scheduler...
+Apr 29 13:17:47 server-192.178.67.1 systemd: Started Command Scheduler.
+Apr 29 13:21:51 server-192.178.67.1 systemd-logind: New session 6 of user ajcblyth.
+Apr 29 13:21:51 server-192.178.67.1 systemd: Started Session 6 of user ajcblyth.
+Apr 29 13:23:36 server-192.178.67.1 systemd-logind: Removed session 6.
+Apr 29 13:24:25 server-192.178.67.1 systemd-logind: New session 7 of user ajcblyth.
+Apr 29 13:24:25 server-192.178.67.1 systemd: Started Session 7 of user ajcblyth.
+Apr 29 13:24:25 server-192.178.67.1 systemd-logind: Removed session 7.
+Apr 29 13:24:32 server-192.178.67.1 systemd-logind: New session 8 of user ajcblyth.
+Apr 29 13:24:32 server-192.178.67.1 systemd: Started Session 8 of user ajcblyth.
+Apr 29 13:24:57 server-192.178.67.1 systemd: [/usr/lib/systemd/system/bolt.service:11] Unknown lvalue 'MemoryDenyWriteExecute' in section 'Service'
+Apr 29 13:24:57 server-192.178.67.1 systemd: [/usr/lib/systemd/system/bolt.service:13] Unknown lvalue 'ProtectControlGroups' in section 'Service'
+Apr 29 13:24:57 server-192.178.67.1 systemd: [/usr/lib/systemd/system/bolt.service:15] Unknown lvalue 'ProtectKernelModules' in section 'Service'
+Apr 29 13:24:57 server-192.178.67.1 systemd: [/usr/lib/systemd/system/bolt.service:18] Unknown lvalue 'RestrictRealtime' in section 'Service'
+Apr 29 13:24:57 server-192.178.67.1 systemd: [/usr/lib/systemd/system/bolt.service:19] Unknown lvalue 'ReadWritePaths' in section 'Service'
+Apr 29 13:24:57 server-192.178.67.1 systemd: [/usr/lib/systemd/system/bolt.service:11] Unknown lvalue 'MemoryDenyWriteExecute' in section 'Service'
+Apr 29 13:24:57 server-192.178.67.1 systemd: [/usr/lib/systemd/system/bolt.service:13] Unknown lvalue 'ProtectControlGroups' in section 'Service'
+Apr 29 13:24:57 server-192.178.67.1 systemd: [/usr/lib/systemd/system/bolt.service:15] Unknown lvalue 'ProtectKernelModules' in section 'Service'
+Apr 29 13:24:57 server-192.178.67.1 systemd: [/usr/lib/systemd/system/bolt.service:18] Unknown lvalue 'RestrictRealtime' in section 'Service'
+Apr 29 13:24:57 server-192.178.67.1 systemd: [/usr/lib/systemd/system/bolt.service:19] Unknown lvalue 'ReadWritePaths' in section 'Service'
+Apr 29 13:26:07 server-192.178.67.1 systemd: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 12137 (find)
+Apr 29 13:26:07 server-192.178.67.1 systemd: Mounting Arbitrary Executable File Formats File System...
+Apr 29 13:26:07 server-192.178.67.1 systemd: Mounted Arbitrary Executable File Formats File System.
+Apr 29 13:30:33 server-192.178.67.1 systemd-logind: Removed session 8.
+Apr 29 13:41:27 server-192.178.67.1 systemd-logind: New session 9 of user ajcblyth.
+Apr 29 13:41:27 server-192.178.67.1 systemd: Started Session 9 of user ajcblyth.
+Apr 29 13:41:35 server-192.178.67.1 systemd-logind: New session 10 of user ajcblyth.
+Apr 29 13:41:35 server-192.178.67.1 systemd: Started Session 10 of user ajcblyth.
+Apr 29 14:01:01 server-192.178.67.1 systemd: Created slice User Slice of root.
+Apr 29 14:01:01 server-192.178.67.1 systemd: Started Session 11 of user root.
+Apr 29 14:01:01 server-192.178.67.1 systemd: Removed slice User Slice of root.
+Apr 29 15:00:14 server-192.178.67.1 systemd: Starting Vsftpd ftp daemon...
+Apr 29 15:00:14 server-192.178.67.1 systemd: Started Vsftpd ftp daemon.
+Apr 29 12:58:45 server-192.178.67.1 dbus[5400]: [system] Activating service name='org.kde.powerdevil.backlighthelper' (using servicehelper)
+Apr 29 12:58:45 server-192.178.67.1 dbus[5400]: [system] Successfully activated service 'org.kde.powerdevil.backlighthelper'
+Apr 29 12:58:57 server-192.178.67.1 dbus[5400]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+Apr 29 12:01:01 server-192.178.67.1 systemd: Started Session 2 of user root.
+Apr 29 12:23:02 server-192.178.67.1 systemd: Removed slice User Slice of root.
+Apr 29 12:58:28 server-192.178.67.1 systemd: Created slice User Slice of ajcblyth.
+Apr 29 12:58:28 server-192.178.67.1 systemd-logind: New session 3 of user ajcblyth.
+Apr 29 12:58:28 server-192.178.67.1 systemd: Started Session 3 of user ajcblyth.
+Apr 29 12:58:57 server-192.178.67.1 dbus[5400]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+Apr 29 12:58:57 server-192.178.67.1 systemd-logind: Removed session c1.
+Apr 29 12:58:57 server-192.178.67.1 systemd: Removed slice User Slice of gdm.
+Apr 29 13:01:01 server-192.178.67.1 systemd: Created slice User Slice of root.
+Apr 29 13:01:01 server-192.178.67.1 systemd: Started Session 4 of user root.
+Apr 29 13:01:01 server-192.178.67.1 systemd: Removed slice User Slice of root.
+Apr 29 13:13:32 server-192.178.67.1 systemd-logind: New session 5 of user ajcblyth.
+Apr 29 13:13:32 server-192.178.67.1 systemd: Started Session 5 of user ajcblyth.
+Apr 29 13:13:35 server-192.178.67.1 systemd-logind: Removed session 5.
+Apr 29 13:17:47 server-192.178.67.1 systemd: Stopping Command Scheduler...
+Apr 29 13:17:47 server-192.178.67.1 systemd: Started Command Scheduler.
+Apr 29 13:21:51 server-192.178.67.1 systemd-logind: New session 6 of user ajcblyth.
+Apr 29 13:21:51 server-192.178.67.1 systemd: Started Session 6 of user ajcblyth.
+Apr 29 13:23:36 server-192.178.67.1 systemd-logind: Removed session 6.
+Apr 29 13:24:25 server-192.178.67.1 systemd-logind: New session 7 of user ajcblyth.
+Apr 29 13:24:25 server-192.178.67.1 systemd: Started Session 7 of user ajcblyth.
+Apr 29 13:24:25 server-192.178.67.1 systemd-logind: Removed session 7.
+Apr 29 13:24:32 server-192.178.67.1 systemd-logind: New session 8 of user ajcblyth.
+Apr 29 13:24:32 server-192.178.67.1 systemd: Started Session 8 of user ajcblyth.
+Apr 29 13:24:57 server-192.178.67.1 systemd: [/usr/lib/systemd/system/bolt.service:11] Unknown lvalue 'MemoryDenyWriteExecute' in section 'Service'
+Apr 29 13:24:57 server-192.178.67.1 systemd: [/usr/lib/systemd/system/bolt.service:13] Unknown lvalue 'ProtectControlGroups' in section 'Service'
+Apr 29 13:24:57 server-192.178.67.1 systemd: [/usr/lib/systemd/system/bolt.service:15] Unknown lvalue 'ProtectKernelModules' in section 'Service'
+Apr 29 13:24:57 server-192.178.67.1 systemd: [/usr/lib/systemd/system/bolt.service:18] Unknown lvalue 'RestrictRealtime' in section 'Service'
+Apr 29 13:24:57 server-192.178.67.1 systemd: [/usr/lib/systemd/system/bolt.service:19] Unknown lvalue 'ReadWritePaths' in section 'Service'
+Apr 29 13:24:57 server-192.178.67.1 systemd: [/usr/lib/systemd/system/bolt.service:11] Unknown lvalue 'MemoryDenyWriteExecute' in section 'Service'
+Apr 29 13:24:57 server-192.178.67.1 systemd: [/usr/lib/systemd/system/bolt.service:13] Unknown lvalue 'ProtectControlGroups' in section 'Service'
+Apr 29 13:24:57 server-192.178.67.1 systemd: [/usr/lib/systemd/system/bolt.service:15] Unknown lvalue 'ProtectKernelModules' in section 'Service'
+Apr 29 13:24:57 server-192.178.67.1 systemd: [/usr/lib/systemd/system/bolt.service:18] Unknown lvalue 'RestrictRealtime' in section 'Service'
+Apr 29 13:24:57 server-192.178.67.1 systemd: [/usr/lib/systemd/system/bolt.service:19] Unknown lvalue 'ReadWritePaths' in section 'Service'
+Apr 29 13:26:07 server-192.178.67.1 systemd: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 12137 (find)
+Apr 29 13:26:07 server-192.178.67.1 systemd: Mounting Arbitrary Executable File Formats File System...
+Apr 29 13:26:07 server-192.178.67.1 systemd: Mounted Arbitrary Executable File Formats File System.
+Apr 29 13:30:33 server-192.178.67.1 systemd-logind: Removed session 8.
+Apr 29 13:41:27 server-192.178.67.1 systemd-logind: New session 9 of user ajcblyth.
+Apr 29 13:41:27 server-192.178.67.1 systemd: Started Session 9 of user ajcblyth.
+Apr 29 13:41:35 server-192.178.67.1 systemd-logind: New session 10 of user ajcblyth.
+Apr 29 13:41:35 server-192.178.67.1 systemd: Started Session 10 of user ajcblyth.
+Apr 29 14:01:01 server-192.178.67.1 systemd: Created slice User Slice of root.
+Apr 29 14:01:01 server-192.178.67.1 systemd: Started Session 11 of user root.
+Apr 29 14:01:01 server-192.178.67.1 systemd: Removed slice User Slice of root.
+Apr 29 15:00:14 server-192.178.67.1 systemd: Starting Vsftpd ftp daemon...
+Apr 29 15:00:14 server-192.178.67.1 systemd: Started Vsftpd ftp daemon.

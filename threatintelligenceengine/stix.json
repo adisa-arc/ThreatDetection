@@ -1,0 +1,447 @@
+{
+    "type": "bundle",
+    "id": "bundle--01fc9ffd-e2d3-4acd-b5d6-024a808ed975",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "indicator",
+            "id": "indicator--d499b550-1f1a-4d93-bbbc-b0edf6269a50",
+            "created": "2019-06-20T16:23:35.621Z",
+            "modified": "2019-06-20T16:23:35.621Z",
+            "name": "Update Software Server for RAT",
+            "description": "This is the RAT making an software update request",
+            "pattern": "[url:value = '']",
+            "valid_from": "2019-06-20T16:23:35.621027Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "cyber-attack-lifecycle-model",
+                    "phase_name": "Installation"
+                }
+            ],
+            "labels": [
+                "malicious-activity"
+            ],
+            "external_references": [
+                {
+                    "source_name": "CAPEC",
+                    "external_id": "CAPEC-187"
+                }
+            ]
+        },
+        {
+            "type": "malware",
+            "id": "malware--890d9796-60bc-46eb-a36e-204849d4c09d",
+            "created": "2019-06-20T16:23:35.637Z",
+            "modified": "2019-06-20T16:23:35.637Z",
+            "name": "Pison Ivy Version 15..12.01",
+            "description": "This malware is s Remote Access Trojan",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "cyber-attack-lifecycle-model",
+                    "phase_name": "Weaponization"
+                }
+            ],
+            "labels": [
+                "backdoor",
+                "remote-access-trojan"
+            ]
+        },
+        {
+            "type": "threat-actor",
+            "id": "threat-actor--40a57b6c-9e67-4387-b3d1-27b6497cc6a3",
+            "created": "2019-06-20T16:23:35.620Z",
+            "modified": "2019-06-20T16:23:35.620Z",
+            "name": "Cowbridge Team Threat Actor Group - CTT1",
+            "description": "This organized threat actor group operates to perform data harvesting.",
+            "aliases": [
+                "Cowbridge Red Team"
+            ],
+            "roles": [
+                "agent"
+            ],
+            "goals": [
+                "Steal Intellectual Property"
+            ],
+            "sophistication": "expert",
+            "resource_level": "organization",
+            "primary_motivation": "personal-gain",
+            "labels": [
+                "crime-syndicate"
+            ]
+        },
+        {
+            "type": "vulnerability",
+            "id": "vulnerability--8055462e-2bec-4eba-88d2-bd46d57a37ec",
+            "created": "2019-06-20T16:23:35.619Z",
+            "modified": "2019-06-20T16:23:35.619Z",
+            "name": "Poision Ivy Vulnerability ",
+            "description": "This is the Poision Ivy RAT infection vulnerability used by CTT1.",
+            "external_references": [
+                {
+                    "source_name": "CAPEC",
+                    "external_id": "CAPEC=448"
+                },
+                {
+                    "source_name": "CVE",
+                    "external_id": "CVE-2019-9182"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--d6b0bc38-9c46-4156-9ce6-3f279fad2d52",
+            "created": "2019-06-20T16:23:35.637Z",
+            "modified": "2019-06-20T16:23:35.637Z",
+            "name": "Cowbridge Team Threat Actor Group - CTT1",
+            "description": "This organized threat actor group operates to perform data harvesting.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "cyber-attack-lifecycle-model",
+                    "phase_name": "Delivery"
+                },
+                {
+                    "kill_chain_name": "cyber-attack-lifecycle-model",
+                    "phase_name": "Exploitation"
+                },
+                {
+                    "kill_chain_name": "cyber-attack-lifecycle-model",
+                    "phase_name": "Installation"
+                }
+            ]
+        },
+        {
+            "type": "intrusion-set",
+            "id": "intrusion-set--c9ed18bf-e449-40f4-915f-f39002b66ee3",
+            "created": "2019-06-20T16:23:35.620Z",
+            "modified": "2019-06-20T16:23:35.620Z",
+            "name": "Cowbridge Team Threat Actor Group - CTT1",
+            "description": "This organized threat actor group operates to perform data harvesting."
+        },
+        {
+            "type": "tool",
+            "id": "tool--bed3b395-47a7-4b19-92be-6a8b72597ba5",
+            "created": "2019-06-20T16:23:35.637Z",
+            "modified": "2019-06-20T16:23:35.637Z",
+            "name": "NMAP Port Scanning & Banner Enumeration",
+            "description": "This is the use of the NMAP too to perform port scanning and banner enumeration",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "cyber-attack-lifecycle-model",
+                    "phase_name": "Reconnaissance"
+                }
+            ],
+            "tool_version": "1.0",
+            "labels": [
+                "port-scanning"
+            ]
+        },
+        {
+            "type": "tool",
+            "id": "tool--41cf9a37-18db-41a8-8a4a-82fb09442d33",
+            "created": "2019-06-20T16:23:35.637Z",
+            "modified": "2019-06-20T16:23:35.637Z",
+            "name": "Identf of Vulnerability",
+            "description": "This is the identfiication of a vulnerability.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "cyber-attack-lifecycle-model",
+                    "phase_name": "Weaponization"
+                }
+            ],
+            "tool_version": "1.0",
+            "labels": [
+                "vulnerability identification"
+            ]
+        },
+        {
+            "type": "tool",
+            "id": "tool--0aefe468-a1d2-48ab-94e3-a27bdc4098b0",
+            "created": "2019-06-20T16:23:35.637Z",
+            "modified": "2019-06-20T16:23:35.637Z",
+            "name": "Vul Validation",
+            "description": "This is the validation of a vulnerability.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "cyber-attack-lifecycle-model",
+                    "phase_name": "Delivery"
+                }
+            ],
+            "tool_version": "1.0",
+            "labels": [
+                "vulnerability validation"
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--770e52b7-c0e4-46df-93f7-98c647b50d0e",
+            "created": "2019-06-20T16:23:35.629Z",
+            "modified": "2019-06-20T16:23:35.629Z",
+            "name": "Port Scanning & Banner Grabbing",
+            "description": "This is use of the NMAP tool to perform TCP port scanning and banner grabbing.",
+            "pattern": "[url:value = '']",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "cyber-attack-lifecycle-model",
+                    "phase_name": "Reconnaissance"
+                }
+            ],
+            "valid_from": "2019-06-20T16:23:35.629248Z",
+            "labels": [
+                "reconnaissance"
+            ],
+            "external_references": [
+                {
+                    "source_name": "CAPEC",
+                    "external_id": "CAPEC-301"
+                }
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--5ef14d95-3398-4ca6-a219-ad3fd989797b",
+            "created": "2019-06-20T16:23:35.629Z",
+            "modified": "2019-06-20T16:23:35.629Z",
+            "name": "Banner Grabbing & OS Fingerpriniting",
+            "description": "This is indicator for the identification of Service and and Operating System.",
+            "pattern": "[url:value = '']",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "cyber-attack-lifecycle-model",
+                    "phase_name": "Weaponization"
+                }
+            ],
+            "valid_from": "2019-06-20T16:23:35.629957Z",
+            "labels": [
+                "reconnaissance"
+            ],
+            "external_references": [
+                {
+                    "source_name": "CAPEC",
+                    "external_id": "CAPEC-574"
+                },
+                {
+                    "source_name": "CAPEC",
+                    "external_id": "CAPEC-312"
+                }
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--6535437d-f17e-40ab-9494-250ab7a90a25",
+            "created": "2019-06-20T16:23:35.630Z",
+            "modified": "2019-06-20T16:23:35.630Z",
+            "name": "Vul ID and Exploit",
+            "description": "This is indicator for the identification of a vulnerability.",
+            "pattern": "[url:value = '']",
+            "valid_from": "2019-06-20T16:23:35.63061Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "cyber-attack-lifecycle-model",
+                    "phase_name": "Delivery"
+                },
+                {
+                    "kill_chain_name": "cyber-attack-lifecycle-model",
+                    "phase_name": "Exploitation"
+                }
+            ],
+            "labels": [
+                "Exploitation"
+            ],
+            "external_references": [
+                {
+                    "source_name": "CAPEC",
+                    "external_id": "CAPEC-121"
+                },
+                {
+                    "source_name": "CAPEC",
+                    "external_id": "CAPEC-242"
+                }
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--fe0841ce-3992-4e3f-8afc-e41d5b661b96",
+            "created": "2019-06-20T16:23:35.631Z",
+            "modified": "2019-06-20T16:23:35.631Z",
+            "name": "DNS Activity - av.ddns.us",
+            "description": "This Indicator is connected to av.ddns.us with the password of admin.",
+            "pattern": "[domain-name:value = 'av.ddns.us' OR ipv4-addr:value = '60.2.148.167']",
+            "valid_from": "2019-06-20T16:23:35.631296Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "cyber-attack-lifecycle-model",
+                    "phase_name": "Command and Control"
+                }
+            ],
+            "labels": [
+                "Exploitation"
+            ],
+            "external_references": [
+                {
+                    "source_name": "CAPEC",
+                    "external_id": "CAPEC-169"
+                }
+            ]
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--eda0216a-1979-4c6c-aac1-e3a4250b9a34",
+            "created": "2019-06-20T16:23:35.635Z",
+            "modified": "2019-06-20T16:23:35.635Z",
+            "name": "SSHD Activity from send.have8000.com",
+            "description": "This indicator is connected to send.have8000.com with the password of suzuki. The domain have8000.com was with the email zhengyanbin8@ gmail.com",
+            "pattern": "[domain-name:value = 'send.have8000.com']",
+            "valid_from": "2019-06-20T16:23:35.635951Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "cyber-attack-lifecycle-model",
+                    "phase_name": "Command and Control"
+                }
+            ],
+            "labels": [
+                "Exploitation"
+            ],
+            "external_references": [
+                {
+                    "source_name": "CAPEC",
+                    "external_id": "CAPEC-168"
+                }
+            ]
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--421da374-5dde-4740-896c-e5d7e21b7d02",
+            "created": "2019-06-20T16:23:35.638Z",
+            "modified": "2019-06-20T16:23:35.638Z",
+            "relationship_type": "uses",
+            "source_ref": "attack-pattern--d6b0bc38-9c46-4156-9ce6-3f279fad2d52",
+            "target_ref": "tool--0aefe468-a1d2-48ab-94e3-a27bdc4098b0"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--733aa4e7-e26c-401b-8a98-4a3db4314be3",
+            "created": "2019-06-20T16:23:35.638Z",
+            "modified": "2019-06-20T16:23:35.638Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--6535437d-f17e-40ab-9494-250ab7a90a25",
+            "target_ref": "tool--0aefe468-a1d2-48ab-94e3-a27bdc4098b0"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--eb70db0f-ff98-49d8-90e0-d614b639db2b",
+            "created": "2019-06-20T16:23:35.638Z",
+            "modified": "2019-06-20T16:23:35.638Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--fe0841ce-3992-4e3f-8afc-e41d5b661b96",
+            "target_ref": "malware--890d9796-60bc-46eb-a36e-204849d4c09d"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--1d2115b7-f169-40d6-83dd-3cf7f236e605",
+            "created": "2019-06-20T16:23:35.638Z",
+            "modified": "2019-06-20T16:23:35.638Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--eda0216a-1979-4c6c-aac1-e3a4250b9a34",
+            "target_ref": "malware--890d9796-60bc-46eb-a36e-204849d4c09d"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--eaaea7b6-f35c-405d-ad48-5fb6bb5c16ba",
+            "created": "2019-06-20T16:23:35.637Z",
+            "modified": "2019-06-20T16:23:35.637Z",
+            "relationship_type": "uses",
+            "source_ref": "threat-actor--40a57b6c-9e67-4387-b3d1-27b6497cc6a3",
+            "target_ref": "malware--890d9796-60bc-46eb-a36e-204849d4c09d"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--b5cfdc27-2a18-49bf-b6b3-2861ceca89d3",
+            "created": "2019-06-20T16:23:35.637Z",
+            "modified": "2019-06-20T16:23:35.637Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--d499b550-1f1a-4d93-bbbc-b0edf6269a50",
+            "target_ref": "malware--890d9796-60bc-46eb-a36e-204849d4c09d"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--17a5b2ac-a03b-464b-a044-15c9fca55c78",
+            "created": "2019-06-20T16:23:35.638Z",
+            "modified": "2019-06-20T16:23:35.638Z",
+            "relationship_type": "targets",
+            "source_ref": "malware--890d9796-60bc-46eb-a36e-204849d4c09d",
+            "target_ref": "vulnerability--8055462e-2bec-4eba-88d2-bd46d57a37ec"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--00e066d2-c747-4e46-90fa-658400fc5dbd",
+            "created": "2019-06-20T16:23:35.638Z",
+            "modified": "2019-06-20T16:23:35.638Z",
+            "relationship_type": "uses",
+            "source_ref": "threat-actor--40a57b6c-9e67-4387-b3d1-27b6497cc6a3",
+            "target_ref": "attack-pattern--d6b0bc38-9c46-4156-9ce6-3f279fad2d52"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--ccb653dd-4dae-4eb6-9eb4-8017ea32a963",
+            "created": "2019-06-20T16:23:35.638Z",
+            "modified": "2019-06-20T16:23:35.638Z",
+            "relationship_type": "attributedto",
+            "source_ref": "intrusion-set--c9ed18bf-e449-40f4-915f-f39002b66ee3",
+            "target_ref": "threat-actor--40a57b6c-9e67-4387-b3d1-27b6497cc6a3"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--cbbbf1fa-f5b3-4267-bfe8-8af4deffd45e",
+            "created": "2019-06-20T16:23:35.638Z",
+            "modified": "2019-06-20T16:23:35.638Z",
+            "relationship_type": "uses",
+            "source_ref": "attack-pattern--d6b0bc38-9c46-4156-9ce6-3f279fad2d52",
+            "target_ref": "malware--890d9796-60bc-46eb-a36e-204849d4c09d"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--2120333e-d27e-4f9e-b89e-cc0f0207303b",
+            "created": "2019-06-20T16:23:35.638Z",
+            "modified": "2019-06-20T16:23:35.638Z",
+            "relationship_type": "attributedto",
+            "source_ref": "intrusion-set--c9ed18bf-e449-40f4-915f-f39002b66ee3",
+            "target_ref": "attack-pattern--d6b0bc38-9c46-4156-9ce6-3f279fad2d52"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--a2f2ec23-b0f4-4f0d-babf-ae1866fa37b1",
+            "created": "2019-06-20T16:23:35.638Z",
+            "modified": "2019-06-20T16:23:35.638Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--770e52b7-c0e4-46df-93f7-98c647b50d0e",
+            "target_ref": "tool--bed3b395-47a7-4b19-92be-6a8b72597ba5"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--a83c5e4a-5083-477c-b18d-5c030f08435c",
+            "created": "2019-06-20T16:23:35.638Z",
+            "modified": "2019-06-20T16:23:35.638Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--5ef14d95-3398-4ca6-a219-ad3fd989797b",
+            "target_ref": "tool--41cf9a37-18db-41a8-8a4a-82fb09442d33"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--a3dc7150-a78e-4d55-afcb-b85c2651d466",
+            "created": "2019-06-20T16:23:35.638Z",
+            "modified": "2019-06-20T16:23:35.638Z",
+            "relationship_type": "uses",
+            "source_ref": "attack-pattern--d6b0bc38-9c46-4156-9ce6-3f279fad2d52",
+            "target_ref": "tool--bed3b395-47a7-4b19-92be-6a8b72597ba5"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--00289174-d9c2-40e2-86ad-8a3d82078123",
+            "created": "2019-06-20T16:23:35.638Z",
+            "modified": "2019-06-20T16:23:35.638Z",
+            "relationship_type": "uses",
+            "source_ref": "attack-pattern--d6b0bc38-9c46-4156-9ce6-3f279fad2d52",
+            "target_ref": "tool--41cf9a37-18db-41a8-8a4a-82fb09442d33"
+        }
+    ]
+}

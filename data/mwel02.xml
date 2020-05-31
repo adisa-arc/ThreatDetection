@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event>
+    <evt datetime="Mar 28 19:24:09" ident="102939182716" type="evt">
+        <source>Security</source>
+        <eventid>4678</eventid>
+        <datetime>2019-03-28T19:24:14.192019280Z</datetime>
+        <user>ajcblyth</user>
+        <computer>dc1.adisa.global</computer>
+        <processid>819276</processid>
+        <threadid>19289</threadid>
+        <keywords>network logon</keywords>
+    </evt>
+</event>

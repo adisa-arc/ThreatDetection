@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+    Title:      Cyber Attack Particle Simulation XML Data Definition - Single Particle Injection - Type:SYSLOG
+    Author:     Dr. Andrew Blyth, Ph.D.
+    Date:       10th June 2019.
+
+-->
+<simulation version='20190610001' time='0'>
+    <timestamp unit='seconds' tcount='1' index='1'>
+        <event type='snort' index='1' ingestor='snortjsonrpc'>
+            <observer process='snort' pid='3029'>ids-sensor-01</observer>
+            <data>[1:1257:15] SERVER-OTHER Winnuke attack [Classification: Attempted Denial of Service] [Priority: 2] {TCP} 192.168.1.100:64173 -> 192.168.1.252:22</data>
+        </event>
+        <event type='snort' index='1' ingestor='snortjsonrpc'>
+            <observer process='snort' pid='3029'>ids-sensor-01</observer>
+            <data>[1:1257:15] SERVER-OTHER Winnuke attack [Classification: Attempted Denial of Service] [Priority: 2] {TCP} 192.168.1.100:64173 -> 192.168.1.252:22</data>
+        </event>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='1'>
+        <event type='snort' index='1' ingestor='snortjsonrpc'>
+            <observer process='snort' pid='3029'>ids-sensor-01</observer>
+            <data>[1:1257:15] SERVER-OTHER Winnuke attack [Classification: Attempted Denial of Service] [Priority: 2] {TCP} 192.168.1.100:64173 -> 192.168.1.252:22</data>
+        </event>
+        <event type='snort' index='1' ingestor='snortjsonrpc'>
+            <observer process='snort' pid='3029'>ids-sensor-01</observer>
+            <data>[1:1257:15] SERVER-OTHER Winnuke attack [Classification: Attempted Denial of Service] [Priority: 2] {TCP} 192.168.1.100:64173 -> 192.168.1.252:22</data>
+        </event>
+    </timestamp>
+</simulation>

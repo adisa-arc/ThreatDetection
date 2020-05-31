@@ -1,0 +1,1219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+    Title:      Cyber Attack Particle Simulation XML Data Definition - Single Particle Injection - Type:SYSLOG
+    Author:     Dr. Andrew Blyth, Ph.D.
+    Date:       10th June 2019.
+
+-->
+<simulation version='20190610001' time='0'>
+    <timestamp unit='seconds' tcount='1' index='1'>
+        <event type='netflow' index='1' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:07" ident="1029384756" type="netflow">
+                    <duration>00:57:37</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>
+                </netflow>
+            </data>
+        </event>
+        <event type='netflow' index='3' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:17" ident="102938471" type="netflow">
+                    <duration>00:57:50</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>§
+                </netflow>
+            </data>
+        </event>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+        <event type='ftpd' index='2' ingestor='ftpdjsonrpc'>
+            <observer process='50' pid='896242'>192.168.37.64</observer>
+            <data>/home/ajcblyth/datalog.tar.gz b _ o r ajcblyth ftp 0 * c</data>
+        </event>
+        <event type='ftpd' index='2' ingestor='ftpdjsonrpc'>
+            <observer process='50' pid='896242'>192.168.37.64</observer>
+            <data>/home/ajcblyth/datalog.tar.gz b _ o r ajcblyth ftp 0 * c</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='evtx' index='4' ingestor='mweljsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <evt datetime="Mar 28 19:23:07" ident="7856384756" type="evt">
+                    <source>Security</source>
+                    <eventid>4624</eventid>
+                    <datetime>2019-03-28T19:23:07.182918260Z</datetime>
+                    <user>ajcblyth</user>
+                    <computer>dc1.adisa.global</computer>
+                    <processid>61762</processid>
+                    <threadid>1920</threadid>
+                    <keywords>logon</keywords>
+                </evt>
+            </data>
+        </event>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='2'>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='3'>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='4'>
+        <event type='netflow' index='3' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:17" ident="102938471" type="netflow">
+                    <duration>00:57:50</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>§
+                </netflow>
+            </data>
+        </event>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='5'>
+        <event type='netflow' index='3' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:17" ident="102938471" type="netflow">
+                    <duration>00:57:50</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>§
+                </netflow>
+            </data>
+        </event>
+        <event type='netflow' index='3' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:17" ident="102938471" type="netflow">
+                    <duration>00:57:50</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>§
+                </netflow>
+            </data>
+        </event>
+        <event type='netflow' index='3' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:17" ident="102938471" type="netflow">
+                    <duration>00:57:50</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>§
+                </netflow>
+            </data>
+        </event>
+        <event type='evtx' index='4' ingestor='mweljsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <evt datetime="Mar 28 19:23:07" ident="7856384756" type="evt">
+                    <source>Security</source>
+                    <eventid>4624</eventid>
+                    <datetime>2019-03-28T19:23:07.182918260Z</datetime>
+                    <user>ajcblyth</user>
+                    <computer>dc1.adisa.global</computer>
+                    <processid>61762</processid>
+                    <threadid>1920</threadid>
+                    <keywords>logon</keywords>
+                </evt>
+            </data>
+        </event>
+        <event type='evtx' index='4' ingestor='mweljsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <evt datetime="Mar 28 19:23:07" ident="7856384756" type="evt">
+                    <source>Security</source>
+                    <eventid>4624</eventid>
+                    <datetime>2019-03-28T19:23:07.182918260Z</datetime>
+                    <user>ajcblyth</user>
+                    <computer>dc1.adisa.global</computer>
+                    <processid>61762</processid>
+                    <threadid>1920</threadid>
+                    <keywords>logon</keywords>
+                </evt>
+            </data>
+        </event>
+        <event type='evtx' index='4' ingestor='mweljsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <evt datetime="Mar 28 19:23:07" ident="7856384756" type="evt">
+                    <source>Security</source>
+                    <eventid>4624</eventid>
+                    <datetime>2019-03-28T19:23:07.182918260Z</datetime>
+                    <user>ajcblyth</user>
+                    <computer>dc1.adisa.global</computer>
+                    <processid>61762</processid>
+                    <threadid>1920</threadid>
+                    <keywords>logon</keywords>
+                </evt>
+            </data>
+        </event>
+        <event type='evtx' index='4' ingestor='mweljsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <evt datetime="Mar 28 19:23:07" ident="7856384756" type="evt">
+                    <source>Security</source>
+                    <eventid>4624</eventid>
+                    <datetime>2019-03-28T19:23:07.182918260Z</datetime>
+                    <user>ajcblyth</user>
+                    <computer>dc1.adisa.global</computer>
+                    <processid>61762</processid>
+                    <threadid>1920</threadid>
+                    <keywords>logon</keywords>
+                </evt>
+            </data>
+        </event>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='6'>
+        <event type='ftpd' index='2' ingestor='ftpdjsonrpc'>
+            <observer process='50' pid='896242'>192.168.37.64</observer>
+            <data>/home/ajcblyth/datalog.tar.gz b _ o r ajcblyth ftp 0 * c</data>
+        </event>
+        <event type='ftpd' index='2' ingestor='ftpdjsonrpc'>
+            <observer process='50' pid='896242'>192.168.37.64</observer>
+            <data>/home/ajcblyth/datalog.tar.gz b _ o r ajcblyth ftp 0 * c</data>
+        </event>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='7'>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='8'>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='9'>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='evtx' index='4' ingestor='mweljsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <evt datetime="Mar 28 19:23:07" ident="7856384756" type="evt">
+                    <source>Security</source>
+                    <eventid>4624</eventid>
+                    <datetime>2019-03-28T19:23:07.182918260Z</datetime>
+                    <user>ajcblyth</user>
+                    <computer>dc1.adisa.global</computer>
+                    <processid>61762</processid>
+                    <threadid>1920</threadid>
+                    <keywords>logon</keywords>
+                </evt>
+            </data>
+        </event>
+        <event type='evtx' index='4' ingestor='mweljsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <evt datetime="Mar 28 19:23:07" ident="7856384756" type="evt">
+                    <source>Security</source>
+                    <eventid>4624</eventid>
+                    <datetime>2019-03-28T19:23:07.182918260Z</datetime>
+                    <user>ajcblyth</user>
+                    <computer>dc1.adisa.global</computer>
+                    <processid>61762</processid>
+                    <threadid>1920</threadid>
+                    <keywords>logon</keywords>
+                </evt>
+            </data>
+        </event>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='10'>
+        <event type='netflow' index='3' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:17" ident="102938471" type="netflow">
+                    <duration>00:57:50</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>§
+                </netflow>
+            </data>
+        </event>
+        <event type='netflow' index='3' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:17" ident="102938471" type="netflow">
+                    <duration>00:57:50</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>§
+                </netflow>
+            </data>
+        </event>
+        <event type='netflow' index='3' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:17" ident="102938471" type="netflow">
+                    <duration>00:57:50</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>§
+                </netflow>
+            </data>
+        </event>
+    </timestamp>
+        <event type='netflow' index='3' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:17" ident="102938471" type="netflow">
+                    <duration>00:57:50</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>§
+                </netflow>
+            </data>
+        </event>
+    <timestamp unit='seconds' tcount='1' index='11'>
+        <event type='ftpd' index='2' ingestor='ftpdjsonrpc'>
+            <observer process='50' pid='896242'>192.168.37.64</observer>
+            <data>/home/ajcblyth/datalog.tar.gz b _ o r ajcblyth ftp 0 * c</data>
+        </event>
+        <event type='netflow' index='3' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:17" ident="102938471" type="netflow">
+                    <duration>00:57:50</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>§
+                </netflow>
+            </data>
+        </event>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='12'>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='13'>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+        <event type='evtx' index='4' ingestor='mweljsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <evt datetime="Mar 28 19:23:07" ident="7856384756" type="evt">
+                    <source>Security</source>
+                    <eventid>4624</eventid>
+                    <datetime>2019-03-28T19:23:07.182918260Z</datetime>
+                    <user>ajcblyth</user>
+                    <computer>dc1.adisa.global</computer>
+                    <processid>61762</processid>
+                    <threadid>1920</threadid>
+                    <keywords>logon</keywords>
+                </evt>
+            </data>
+        </event>
+        <event type='evtx' index='4' ingestor='mweljsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <evt datetime="Mar 28 19:23:07" ident="7856384756" type="evt">
+                    <source>Security</source>
+                    <eventid>4624</eventid>
+                    <datetime>2019-03-28T19:23:07.182918260Z</datetime>
+                    <user>ajcblyth</user>
+                    <computer>dc1.adisa.global</computer>
+                    <processid>61762</processid>
+                    <threadid>1920</threadid>
+                    <keywords>logon</keywords>
+                </evt>
+            </data>
+        </event>
+        <event type='evtx' index='4' ingestor='mweljsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <evt datetime="Mar 28 19:23:07" ident="7856384756" type="evt">
+                    <source>Security</source>
+                    <eventid>4624</eventid>
+                    <datetime>2019-03-28T19:23:07.182918260Z</datetime>
+                    <user>ajcblyth</user>
+                    <computer>dc1.adisa.global</computer>
+                    <processid>61762</processid>
+                    <threadid>1920</threadid>
+                    <keywords>logon</keywords>
+                </evt>
+            </data>
+        </event>
+        <event type='evtx' index='4' ingestor='mweljsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <evt datetime="Mar 28 19:23:07" ident="7856384756" type="evt">
+                    <source>Security</source>
+                    <eventid>4624</eventid>
+                    <datetime>2019-03-28T19:23:07.182918260Z</datetime>
+                    <user>ajcblyth</user>
+                    <computer>dc1.adisa.global</computer>
+                    <processid>61762</processid>
+                    <threadid>1920</threadid>
+                    <keywords>logon</keywords>
+                </evt>
+            </data>
+        </event>
+        <event type='evtx' index='4' ingestor='mweljsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <evt datetime="Mar 28 19:23:07" ident="7856384756" type="evt">
+                    <source>Security</source>
+                    <eventid>4624</eventid>
+                    <datetime>2019-03-28T19:23:07.182918260Z</datetime>
+                    <user>ajcblyth</user>
+                    <computer>dc1.adisa.global</computer>
+                    <processid>61762</processid>
+                    <threadid>1920</threadid>
+                    <keywords>logon</keywords>
+                </evt>
+            </data>
+        </event>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+    </timestamp>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+    <timestamp unit='seconds' tcount='1' index='14'>
+        <event type='netflow' index='3' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:17" ident="102938471" type="netflow">
+                    <duration>00:57:50</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>§
+                </netflow>
+            </data>
+        </event>
+        <event type='netflow' index='3' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:17" ident="102938471" type="netflow">
+                    <duration>00:57:50</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>§
+                </netflow>
+            </data>
+        </event>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='15'>
+        <event type='netflow' index='3' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:17" ident="102938471" type="netflow">
+                    <duration>00:57:50</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>§
+                </netflow>
+            </data>
+        </event>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='16'>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='netflow' index='3' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:17" ident="102938471" type="netflow">
+                    <duration>00:57:50</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>§
+                </netflow>
+            </data>
+        </event>
+        <event type='netflow' index='3' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:17" ident="102938471" type="netflow">
+                    <duration>00:57:50</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>§
+                </netflow>
+            </data>
+        </event>
+        <event type='netflow' index='3' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:17" ident="102938471" type="netflow">
+                    <duration>00:57:50</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>§
+                </netflow>
+            </data>
+        </event>
+        <event type='netflow' index='3' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:17" ident="102938471" type="netflow">
+                    <duration>00:57:50</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>§
+                </netflow>
+            </data>
+        </event>
+        <event type='netflow' index='3' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:17" ident="102938471" type="netflow">
+                    <duration>00:57:50</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>§
+                </netflow>
+            </data>
+        </event>
+        <event type='netflow' index='3' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:17" ident="102938471" type="netflow">
+                    <duration>00:57:50</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>§
+                </netflow>
+            </data>
+        </event>
+        <event type='netflow' index='3' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:17" ident="102938471" type="netflow">
+                    <duration>00:57:50</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>§
+                </netflow>
+            </data>
+        </event>
+        <event type='netflow' index='3' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:17" ident="102938471" type="netflow">
+                    <duration>00:57:50</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>§
+                </netflow>
+            </data>
+        </event>
+        <event type='netflow' index='3' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:17" ident="102938471" type="netflow">
+                    <duration>00:57:50</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>§
+                </netflow>
+            </data>
+        </event>
+        <event type='netflow' index='3' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:17" ident="102938471" type="netflow">
+                    <duration>00:57:50</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>§
+                </netflow>
+            </data>
+        </event>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='17'>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='18'>
+        <event type='netflow' index='3' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:17" ident="102938471" type="netflow">
+                    <duration>00:57:50</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>§
+                </netflow>
+            </data>
+        </event>
+        <event type='ftpd' index='2' ingestor='ftpdjsonrpc'>
+            <observer process='50' pid='896242'>192.168.37.64</observer>
+            <data>/home/ajcblyth/datalog.tar.gz b _ o r ajcblyth ftp 0 * c</data>
+        </event>
+        <event type='ftpd' index='2' ingestor='ftpdjsonrpc'>
+            <observer process='50' pid='896242'>192.168.37.64</observer>
+            <data>/home/ajcblyth/datalog.tar.gz b _ o r ajcblyth ftp 0 * c</data>
+        </event>
+        <event type='ftpd' index='2' ingestor='ftpdjsonrpc'>
+            <observer process='50' pid='896242'>192.168.37.64</observer>
+            <data>/home/ajcblyth/datalog.tar.gz b _ o r ajcblyth ftp 0 * c</data>
+        </event>
+        <event type='ftpd' index='2' ingestor='ftpdjsonrpc'>
+            <observer process='50' pid='896242'>192.168.37.64</observer>
+            <data>/home/ajcblyth/datalog.tar.gz b _ o r ajcblyth ftp 0 * c</data>
+        </event>
+        <event type='ftpd' index='2' ingestor='ftpdjsonrpc'>
+            <observer process='50' pid='896242'>192.168.37.64</observer>
+            <data>/home/ajcblyth/datalog.tar.gz b _ o r ajcblyth ftp 0 * c</data>
+        </event>
+        <event type='ftpd' index='2' ingestor='ftpdjsonrpc'>
+            <observer process='50' pid='896242'>192.168.37.64</observer>
+            <data>/home/ajcblyth/datalog.tar.gz b _ o r ajcblyth ftp 0 * c</data>
+        </event>
+        <event type='ftpd' index='2' ingestor='ftpdjsonrpc'>
+            <observer process='50' pid='896242'>192.168.37.64</observer>
+            <data>/home/ajcblyth/datalog.tar.gz b _ o r ajcblyth ftp 0 * c</data>
+        </event>
+        <event type='netflow' index='3' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:17" ident="102938471" type="netflow">
+                    <duration>00:57:50</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>§
+                </netflow>
+            </data>
+        </event>
+        <event type='netflow' index='3' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:17" ident="102938471" type="netflow">
+                    <duration>00:57:50</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>§
+                </netflow>
+            </data>
+        </event>
+    </timestamp>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+    <timestamp unit='seconds' tcount='1' index='19'>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='20'>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+        <event type='ftpd' index='2' ingestor='ftpdjsonrpc'>
+            <observer process='50' pid='896242'>192.168.37.64</observer>
+            <data>/home/ajcblyth/datalog.tar.gz b _ o r ajcblyth ftp 0 * c</data>
+        </event>
+        <event type='ftpd' index='2' ingestor='ftpdjsonrpc'>
+            <observer process='50' pid='896242'>192.168.37.64</observer>
+            <data>/home/ajcblyth/datalog.tar.gz b _ o r ajcblyth ftp 0 * c</data>
+        </event>
+        <event type='ftpd' index='2' ingestor='ftpdjsonrpc'>
+            <observer process='50' pid='896242'>192.168.37.64</observer>
+            <data>/home/ajcblyth/datalog.tar.gz b _ o r ajcblyth ftp 0 * c</data>
+        </event>
+        <event type='ftpd' index='2' ingestor='ftpdjsonrpc'>
+            <observer process='50' pid='896242'>192.168.37.64</observer>
+            <data>/home/ajcblyth/datalog.tar.gz b _ o r ajcblyth ftp 0 * c</data>
+        </event>
+        <event type='ftpd' index='2' ingestor='ftpdjsonrpc'>
+            <observer process='50' pid='896242'>192.168.37.64</observer>
+            <data>/home/ajcblyth/datalog.tar.gz b _ o r ajcblyth ftp 0 * c</data>
+        </event>
+        <event type='ftpd' index='2' ingestor='ftpdjsonrpc'>
+            <observer process='50' pid='896242'>192.168.37.64</observer>
+            <data>/home/ajcblyth/datalog.tar.gz b _ o r ajcblyth ftp 0 * c</data>
+        </event>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+        <event type='evtx' index='4' ingestor='mweljsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <evt datetime="Mar 28 19:23:07" ident="7856384756" type="evt">
+                    <source>Security</source>
+                    <eventid>4624</eventid>
+                    <datetime>2019-03-28T19:23:07.182918260Z</datetime>
+                    <user>ajcblyth</user>
+                    <computer>dc1.adisa.global</computer>
+                    <processid>61762</processid>
+                    <threadid>1920</threadid>
+                    <keywords>logon</keywords>
+                </evt>
+            </data>
+        </event>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='21'>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='22'>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='23'>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+        <event type='evtx' index='4' ingestor='mweljsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <evt datetime="Mar 28 19:23:07" ident="7856384756" type="evt">
+                    <source>Security</source>
+                    <eventid>4624</eventid>
+                    <datetime>2019-03-28T19:23:07.182918260Z</datetime>
+                    <user>ajcblyth</user>
+                    <computer>dc1.adisa.global</computer>
+                    <processid>61762</processid>
+                    <threadid>1920</threadid>
+                    <keywords>logon</keywords>
+                </evt>
+            </data>
+        </event>
+        <event type='evtx' index='4' ingestor='mweljsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <evt datetime="Mar 28 19:23:07" ident="7856384756" type="evt">
+                    <source>Security</source>
+                    <eventid>4624</eventid>
+                    <datetime>2019-03-28T19:23:07.182918260Z</datetime>
+                    <user>ajcblyth</user>
+                    <computer>dc1.adisa.global</computer>
+                    <processid>61762</processid>
+                    <threadid>1920</threadid>
+                    <keywords>logon</keywords>
+                </evt>
+            </data>
+        </event>
+        <event type='evtx' index='4' ingestor='mweljsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <evt datetime="Mar 28 19:23:07" ident="7856384756" type="evt">
+                    <source>Security</source>
+                    <eventid>4624</eventid>
+                    <datetime>2019-03-28T19:23:07.182918260Z</datetime>
+                    <user>ajcblyth</user>
+                    <computer>dc1.adisa.global</computer>
+                    <processid>61762</processid>
+                    <threadid>1920</threadid>
+                    <keywords>logon</keywords>
+                </evt>
+            </data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='24'>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='25'>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+        <event type='ftpd' index='2' ingestor='ftpdjsonrpc'>
+            <observer process='50' pid='896242'>192.168.37.64</observer>
+            <data>/home/ajcblyth/datalog.tar.gz b _ o r ajcblyth ftp 0 * c</data>
+        </event>
+        <event type='ftpd' index='2' ingestor='ftpdjsonrpc'>
+            <observer process='50' pid='896242'>192.168.37.64</observer>
+            <data>/home/ajcblyth/datalog.tar.gz b _ o r ajcblyth ftp 0 * c</data>
+        </event>
+        <event type='ftpd' index='2' ingestor='ftpdjsonrpc'>
+            <observer process='50' pid='896242'>192.168.37.64</observer>
+            <data>/home/ajcblyth/datalog.tar.gz b _ o r ajcblyth ftp 0 * c</data>
+        </event>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='26'>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='27'>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='28'>
+        <event type='netflow' index='3' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:17" ident="102938471" type="netflow">
+                    <duration>00:57:50</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>§
+                </netflow>
+            </data>
+        </event>
+        <event type='netflow' index='3' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:17" ident="102938471" type="netflow">
+                    <duration>00:57:50</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>§
+                </netflow>
+            </data>
+        </event>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='29'>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='30'>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='netflow' index='3' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:17" ident="102938471" type="netflow">
+                    <duration>00:57:50</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>§
+                </netflow>
+            </data>
+        </event>
+        <event type='evtx' index='4' ingestor='mweljsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <evt datetime="Mar 28 19:23:07" ident="7856384756" type="evt">
+                    <source>Security</source>
+                    <eventid>4624</eventid>
+                    <datetime>2019-03-28T19:23:07.182918260Z</datetime>
+                    <user>ajcblyth</user>
+                    <computer>dc1.adisa.global</computer>
+                    <processid>61762</processid>
+                    <threadid>1920</threadid>
+                    <keywords>logon</keywords>
+                </evt>
+            </data>
+        </event>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='31'>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='32'>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='33'>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='34'>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='35'>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='36'>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='37'>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='38'>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='39'>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='40'>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='41'>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='42'>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='43'>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='44'>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='45'>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='46'>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='47'>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='48'>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='49'>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='50'>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='51'>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='52'>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='53'>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='54'>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='55'>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='56'>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='57'>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='58'>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='59'>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='60'>
+    </timestamp>
+</simulation>

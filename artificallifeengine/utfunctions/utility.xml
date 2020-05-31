@@ -1,0 +1,36 @@
+<?xml version = "1.0"?>
+<utf func="MAX" id="201907-1.0" defaultreturn="0">
+	<clause predictiontype="vulnerability--8356-7a0c4f200" src="snort" dst="vulnerability">
+		<guard op="OR">
+			<match oprand="pred:-external_id" op="EQU" type="string">CVE-2019-098765</match>
+			<match oprand="pred:-external_id" op="EQU" type="string">CVE-2019-123456</match>
+			<match oprand="pred:-external_id" op="EQU" type="string">CVE-2019-789162</match>
+			<guard op="AND">
+				<match oprand="pred:-external_id" op="EQU" type="string">CVE-2019-9182</match>
+				<match oprand="event:-destinationip" op="EQU" type="string">192.168.1.252</match>
+			</guard>
+			<guard op="AND">
+				<match oprand="data:-external_id" op="EQU" type="string">10.193.218.21</match>
+				<match oprand="data:-external_id" op="EQU" type="string">Windows 10</match>
+			</guard>
+		</guard>
+		<action op="RET">50</action>
+	</clause>
+	<clause predictiontype="vulnerability--8356-7a0c4f201" src="snort" dst="vulnerability">
+		<guard op="AND">
+			<match oprand="event:-sourceport" op="EQU" type="string">64174</match>
+			<match oprand="pred:-external_id" op="EQU" type="string">CVE-2019-9182"</match>
+			<guard op="AND">
+				<match oprand="data:-external_id" op="EQU" type="string">10.193.218.21</match>
+				<match oprand="data:-external_id" op="EQU" type="string">Windows 10</match>
+			</guard>
+		</guard>
+		<action op="RET">50</action>
+	</clause>
+	<clause predictiontype="vulnerability--8356-7a0c4f202" src="sshd" dst="indicator">
+		<guard op="ID">
+			<match oprand="event:-_sourceaddr" op="EQU" type="string">192.168.100.101</match>
+		</guard>
+		<action op="RET">10</action>
+	</clause>
+</utf>

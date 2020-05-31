@@ -1,0 +1,1 @@
+Jun 20 18:10:26 ids-sensor-01 snort[3029]: [1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.111

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event>
+	<netflow datetime="Mar 28 20:32:07" ident="81928172871" type="netflow">
+		<datetime>Mar 28 20:32:07</datetime>
+		<duration>01:56:17</duration>
+		<protocol>TCP</protocol>
+		<sourceip>192.168.30.142</sourceip>
+		<sourceport>3781</sourceport>
+		<destinationip>192.168.30.142</destinationip>
+		<destinationport>22</destinationport>
+		<packets>28172</packets>
+		<bytes>192091827</bytes>
+	</netflow>
+</event>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+    Title:      Cyber Attack Particle Simulation XML Data Definition
+    Author:     Dr. Andrew Blyth, Ph.D.
+    Date:       10th June 2019.
+
+-->
+<simulation version='20190610001' time='0'>
+    <timestamp unit='seconds' tcount='1' index='1'>
+        <!-- This is the SNORT: Jun 10 12:34:26 workstation-0FC1 systemd: System logic bus check ID 0000:0001 - [PASS] -->
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0000:0001 - [PASS]</data>
+        </event>
+        <!-- This is the SNORT: Jun 10 12:34:26 workstation-0FC1 systemd: System logic bus check ID 0000:0002 - [PASS] -->
+        <event type='syslog' index='2' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0000:0002 - [PASS]</data>
+        </event>
+        <!-- This is the SNORT: Jun 10 12:34:26 workstation-0FC1 systemd: System logic bus check ID 0000:0003 - [PASS] -->
+        <event type='syslog' index='3' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0000:0003 - [PASS]</data>
+        </event>
+        <!-- This is the SNORT: Jun 10 12:34:26 workstation-0FC1 systemd: System logic bus check ID 0000:0004 - [PASS] -->
+        <event type='syslog' index='4' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0000:0004 - [PASS]</data>
+        </event>
+        <event type='snort' index='5' ingestor='snortjsonrpc'>
+            <observer process='snort' pid='3029'>ids-sensor-01</observer>
+            <data>[1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252</data>
+        </event>
+    </timestamp>
+    <timestamp unit='seconds' tcount='3' index='2'>
+        <!-- This is the SNORT: Jun 10 12:34:26 workstation-0FC1 systemd: System logic bus check ID 0001:0001 - [FAIL] -->
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0001:0001 - [FAIL]</data>
+        </event>
+        <!-- This is the SNORT: Jun 10 12:34:26 workstation-0FC1 systemd: System logic bus check ID 0001:0002 - [FAIL] -->
+        <event type='syslog' index='2' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0001:0002 - [FAIL]</data>
+        </event>
+    </timestamp>
+    <timestamp unit='seconds' tcount='5' index='3'>
+        <!-- This is the SNORT: Jun 10 12:34:26 workstation-0FC1 systemd: System logic bus check ID 0002:0001 - [FAIL] -->
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0002:0001 - [FAIL]</data>
+        </event>
+        <!-- This is the SNORT: Jun 10 12:34:26 workstation-0FC1 systemd: System logic bus check ID 0002:0002 - [FAIL] -->
+        <event type='syslog' index='2' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0002:0002 - [FAIL]</data>
+        </event>
+        <!-- This is the SNORT: Jun 10 12:34:26 workstation-0FC1 systemd: System logic bus check ID 0002:0003 - [FAIL] -->
+        <event type='syslog' index='3' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0002:0003 - [FAIL]</data>
+        </event>
+        <!-- This is the SNORT: Jun 10 12:34:26 workstation-0FC1 systemd: System logic bus check ID 0002:0004 - [FAIL] -->
+        <event type='syslog' index='4' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0002:0004 - [FAIL]</data>
+        </event>
+        <!-- This is the SNORT: Jun 10 12:34:26 workstation-0FC1 systemd: System logic bus check ID 0002:0005 - [FAIL] -->
+        <event type='syslog' index='5' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0002:0005 - [FAIL]</data>
+        </event>
+        <!-- This is the SNORT: Jun 10 12:34:26 workstation-0FC1 systemd: System logic bus check ID 0002:0006 - [FAIL] -->
+        <event type='syslog' index='6' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0002:0006 - [FAIL]</data>
+        </event>
+        <!-- This is the SNORT: Jun 10 12:34:26 workstation-0FC1 systemd: System logic bus check ID 0002:0007 - [FAIL] -->
+        <event type='syslog' index='7' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0002:0007 - [FAIL]</data>
+        </event>
+        <!-- This is the SNORT: Jun 10 12:34:26 workstation-0FC1 systemd: System logic bus check ID 0002:0008 - [FAIL] -->
+        <event type='syslog' index='8' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0002:0008 - [FAIL]</data>
+        </event>
+        <!-- This is the SNORT: Jun 10 12:34:26 workstation-0FC1 systemd: System logic bus check ID 0002:0009 - [FAIL] -->
+        <event type='syslog' index='9' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0002:0009 - [FAIL]</data>
+        </event>
+        <!-- This is the SNORT: Jun 10 12:34:26 workstation-0FC1 systemd: System logic bus check ID 0002:000A - [FAIL] -->
+        <event type='syslog' index='10' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0002:000A - [FAIL]</data>
+        </event>
+    </timestamp>
+    <timestamp unit='seconds' tcount='1' index='4'>
+        <!-- This is the SNORT: Jun 10 12:34:26 workstation-0FC1 systemd: System logic bus check ID 0003:0001 - [PASS] -->
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0003:0001 - [PASS]</data>
+        </event>
+        <!-- This is the SNORT: Jun 10 12:34:26 workstation-0FC1 systemd: System logic bus check ID 0003:0002 - [PASS] -->
+        <event type='syslog' index='2' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0003:0002 - [PASS]</data>
+        </event>
+    </timestamp>
+</simulation>
+
+
+
+
+
+

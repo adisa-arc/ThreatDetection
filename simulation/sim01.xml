@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+    Title:      Cyber Attack Particle Simulation XML Data Definition
+    Author:     Dr. Andrew Blyth, Ph.D.
+    Date:       10th June 2019.
+
+-->
+<simulation version='20190610001' time='0'>
+<!-- 
+            Second Count: 01
+-->
+    <timestamp unit='seconds' tcount='1' index='1'>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0001 - [PASS]</data>
+        </event>
+        <event type='syslog' index='2' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0002 - [PASS]</data>
+        </event>
+        <event type='syslog' index='3' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0003 - [PASS]</data>
+        </event>
+        <event type='syslog' index='4' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0004 - [PASS]</data>
+        </event>
+        <event type='syslog' index='5' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0005 - [PASS]</data>
+        </event>
+        <event type='snort' index='2' ingestor='snortjsonrpc'>
+            <observer process='snort' pid='3029'>ids-sensor-01</observer>
+            <data>[1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252</data>
+        </event>
+        <event type='snort' index='2' ingestor='snortjsonrpc'>
+            <observer process='snort' pid='3029'>ids-sensor-01</observer>
+            <data>[1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252</data>
+        </event>
+        <event type='tcpd' index='4' ingestor='tcpdjsonrpc'>
+            <observer process='in.telnetd' pid='1140'>workstation-0FC1</observer>
+            <data>Connect from 192.168.1.100</data>
+        </event>
+    </timestamp>
+<!-- 
+            Second Count: 02
+-->
+    <timestamp unit='seconds' tcount='1' index='2'>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0020 - [PASS]</data>
+        </event>
+        <event type='syslog' index='2' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0021 - [PASS]</data>
+        </event>
+        <event type='syslog' index='3' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0022 - [PASS]</data>
+        </event>
+        <event type='syslog' index='4' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0023 - [PASS]</data>
+        </event>
+        <event type='syslog' index='5' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0024 - [PASS]</data>
+        </event>
+        <event type='syslog' index='6' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0025 - [PASS]</data>
+        </event>
+        <event type='syslog' index='7' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0026 - [PASS]</data>
+        </event>
+        <event type='syslog' index='8' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0027 - [PASS]</data>
+        </event>
+        <event type='syslog' index='9' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0028 - [PASS]</data>
+        </event>
+        <event type='syslog' index='10' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0029 - [PASS]</data>
+        </event>
+    </timestamp>
+<!-- 
+            Second Count: 03
+-->
+    <timestamp unit='seconds' tcount='1' index='3'>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0030 - [PASS]</data>
+        </event>
+        <event type='syslog' index='2' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:003F - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+         <event type='cef' index='1' ingestor='cefjsonrpc'>
+            <observer process='' pid=''>server-01</observer>
+            <data>CEF:0|security|threatmanager|1.0|100|poison ivy trojan infection successfully stopped|10|src=192.168.1.100 dst=192.168.1.252 spt=1232</data>
+        </event>
+        <event type='cef' index='1' ingestor='cefjsonrpc'>
+            <observer process='' pid=''>server-01</observer>
+            <data>CEF:0|security|threatmanager|1.0|100|poison ivy trojan infection successfully stopped|10|src=192.168.1.100 dst=192.168.1.252 spt=1232</data>
+        </event>
+    </timestamp>
+<!-- 
+            Second Count: 04
+-->
+    <timestamp unit='seconds' tcount='1' index='4'>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0040 - [PASS]</data>
+        </event>
+    </timestamp>
+<!-- 
+            Second Count: 05
+-->
+    <timestamp unit='seconds' tcount='1' index='5'>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0050 - [PASS]</data>
+        </event>
+        <event type='snort' index='2' ingestor='snortjsonrpc'>
+            <observer process='snort' pid='3029'>ids-sensor-01</observer>
+            <data>[1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252</data>
+        </event>
+    </timestamp>
+<!-- 
+            Second Count: 06
+-->
+    <timestamp unit='seconds' tcount='1' index='6'>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0060 - [PASS]</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 64174 ssh2</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 64174 ssh2</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 64174 ssh2</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 64174 ssh2</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 64174 ssh2</data>
+        </event>
+    </timestamp>
+<!-- 
+            Second Count: 07
+-->
+    <timestamp unit='seconds' tcount='1' index='7'>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0070 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 64174 ssh2</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 64174 ssh2</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 64174 ssh2</data>
+        </event>
+    </timestamp>
+<!-- 
+            Second Count: 08
+-->
+    <timestamp unit='seconds' tcount='1' index='8'>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0080 - [PASS]</data>
+        </event>
+        <event type='snort' index='2' ingestor='snortjsonrpc'>
+            <observer process='snort' pid='3029'>ids-sensor-01</observer>
+            <data>[1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252</data>
+        </event>
+        <event type='snort' index='2' ingestor='snortjsonrpc'>
+            <observer process='snort' pid='3029'>ids-sensor-01</observer>
+            <data>[1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252</data>
+        </event>
+        <event type='snort' index='2' ingestor='snortjsonrpc'>
+            <observer process='snort' pid='3029'>ids-sensor-01</observer>
+            <data>[1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 64174 ssh2</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 64174 ssh2</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 64174 ssh2</data>
+        </event>
+    </timestamp>
+<!-- 
+            Second Count: 09
+-->
+    <timestamp unit='seconds' tcount='1' index='9'>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0090 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='tcpd' index='4' ingestor='tcpdjsonrpc'>
+            <observer process='in.telnetd' pid='1140'>workstation-0FC1</observer>
+            <data>Connect from 192.168.1.100</data>
+        </event>
+        <event type='tcpd' index='4' ingestor='tcpdjsonrpc'>
+            <observer process='in.telnetd' pid='1140'>workstation-0FC1</observer>
+            <data>Connect from 192.168.1.100</data>
+        </event>
+    </timestamp>
+<!-- 
+            Second Count: 10
+-->
+    <timestamp unit='seconds' tcount='1' index='10'>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+    </timestamp>
+<!-- 
+            Second Count: 11
+-->
+    <timestamp unit='seconds' tcount='1' index='1'>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0001 - [PASS]</data>
+        </event>
+        <event type='syslog' index='2' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0002 - [PASS]</data>
+        </event>
+        <event type='syslog' index='3' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0003 - [PASS]</data>
+        </event>
+        <event type='syslog' index='4' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0004 - [PASS]</data>
+        </event>
+        <event type='syslog' index='5' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0005 - [PASS]</data>
+        </event>
+        <event type='snort' index='2' ingestor='snortjsonrpc'>
+            <observer process='snort' pid='3029'>ids-sensor-01</observer>
+            <data>[1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252</data>
+        </event>
+        <event type='snort' index='2' ingestor='snortjsonrpc'>
+            <observer process='snort' pid='3029'>ids-sensor-01</observer>
+            <data>[1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252</data>
+        </event>
+        <event type='snort' index='2' ingestor='snortjsonrpc'>
+            <observer process='snort' pid='3029'>ids-sensor-01</observer>
+            <data>[1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252</data>
+        </event>
+        <event type='snort' index='2' ingestor='snortjsonrpc'>
+            <observer process='snort' pid='3029'>ids-sensor-01</observer>
+            <data>[1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252</data>
+        </event>
+        <event type='snort' index='2' ingestor='snortjsonrpc'>
+            <observer process='snort' pid='3029'>ids-sensor-01</observer>
+            <data>[1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252</data>
+        </event>
+        <event type='snort' index='2' ingestor='snortjsonrpc'>
+            <observer process='snort' pid='3029'>ids-sensor-01</observer>
+            <data>[1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252</data>
+        </event>
+        <event type='tcpd' index='4' ingestor='tcpdjsonrpc'>
+            <observer process='in.telnetd' pid='1140'>workstation-0FC1</observer>
+            <data>Connect from 192.168.1.100</data>
+        </event>
+        <event type='tcpd' index='4' ingestor='tcpdjsonrpc'>
+            <observer process='in.telnetd' pid='1140'>workstation-0FC1</observer>
+            <data>Connect from 192.168.1.100</data>
+        </event>
+        <event type='tcpd' index='4' ingestor='tcpdjsonrpc'>
+            <observer process='in.telnetd' pid='1140'>workstation-0FC1</observer>
+            <data>Connect from 192.168.1.100</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 64174 ssh2</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 64174 ssh2</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 64174 ssh2</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 64174 ssh2</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 64174 ssh2</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 64174 ssh2</data>
+        </event>
+        <event type='cef' index='1' ingestor='cefjsonrpc'>
+            <observer process='' pid=''>server-01</observer>
+            <data>CEF:0|security|threatmanager|1.0|100|poison ivy trojan infection successfully stopped|10|src=192.168.1.100 dst=192.168.1.252 spt=1232</data>
+        </event>
+    </timestamp>
+<!-- 
+            Second Count: 12
+-->
+    <timestamp unit='seconds' tcount='1' index='2'>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0020 - [PASS]</data>
+        </event>
+        <event type='syslog' index='2' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0021 - [PASS]</data>
+        </event>
+        <event type='syslog' index='3' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0022 - [PASS]</data>
+        </event>
+        <event type='syslog' index='4' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0023 - [PASS]</data>
+        </event>
+        <event type='syslog' index='5' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0024 - [PASS]</data>
+        </event>
+        <event type='syslog' index='6' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0025 - [PASS]</data>
+        </event>
+        <event type='syslog' index='7' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0026 - [PASS]</data>
+        </event>
+        <event type='syslog' index='8' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0027 - [PASS]</data>
+        </event>
+        <event type='syslog' index='9' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0028 - [PASS]</data>
+        </event>
+        <event type='syslog' index='10' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0029 - [PASS]</data>
+        </event>
+    </timestamp>
+<!-- 
+            Second Count: 13
+-->
+    <timestamp unit='seconds' tcount='1' index='3'>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0030 - [PASS]</data>
+        </event>
+        <event type='syslog' index='2' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:003F - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+    </timestamp>
+<!-- 
+            Second Count: 14
+-->
+    <timestamp unit='seconds' tcount='1' index='4'>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0040 - [PASS]</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 64174 ssh2</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 64174 ssh2</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 64174 ssh2</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 64174 ssh2</data>
+        </event>
+    </timestamp>
+<!-- 
+            Second Count: 15
+-->
+    <timestamp unit='seconds' tcount='1' index='5'>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0050 - [PASS]</data>
+        </event>
+    </timestamp>
+<!-- 
+            Second Count: 16
+-->
+    <timestamp unit='seconds' tcount='1' index='6'>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0060 - [PASS]</data>
+        </event>
+    </timestamp>
+<!-- 
+            Second Count: 17
+-->
+    <timestamp unit='seconds' tcount='1' index='7'>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0070 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+    </timestamp>
+<!-- 
+            Second Count: 18
+-->
+    <timestamp unit='seconds' tcount='1' index='8'>
+    <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0080 - [PASS]</data>
+        </event>
+        <event type='tcpd' index='4' ingestor='tcpdjsonrpc'>
+            <observer process='in.telnetd' pid='1140'>workstation-0FC1</observer>
+            <data>Connect from 192.168.1.100</data>
+        </event>
+        <event type='tcpd' index='4' ingestor='tcpdjsonrpc'>
+            <observer process='in.telnetd' pid='1140'>workstation-0FC1</observer>
+            <data>Connect from 192.168.1.100</data>
+        </event>
+        <event type='tcpd' index='4' ingestor='tcpdjsonrpc'>
+            <observer process='in.telnetd' pid='1140'>workstation-0FC1</observer>
+            <data>Connect from 192.168.1.100</data>
+        </event>
+        <event type='tcpd' index='4' ingestor='tcpdjsonrpc'>
+            <observer process='in.telnetd' pid='1140'>workstation-0FC1</observer>
+            <data>Connect from 192.168.1.100</data>
+        </event>
+        <event type='tcpd' index='4' ingestor='tcpdjsonrpc'>
+            <observer process='in.telnetd' pid='1140'>workstation-0FC1</observer>
+            <data>Connect from 192.168.1.100</data>
+        </event>
+        <event type='tcpd' index='4' ingestor='tcpdjsonrpc'>
+            <observer process='in.telnetd' pid='1140'>workstation-0FC1</observer>
+            <data>Connect from 192.168.1.100</data>
+        </event>
+        <event type='tcpd' index='4' ingestor='tcpdjsonrpc'>
+            <observer process='in.telnetd' pid='1140'>workstation-0FC1</observer>
+            <data>Connect from 192.168.1.100</data>
+        </event>
+        <event type='tcpd' index='4' ingestor='tcpdjsonrpc'>
+            <observer process='in.telnetd' pid='1140'>workstation-0FC1</observer>
+            <data>Connect from 192.168.1.100</data>
+        </event>
+        <event type='tcpd' index='4' ingestor='tcpdjsonrpc'>
+            <observer process='in.telnetd' pid='1140'>workstation-0FC1</observer>
+            <data>Connect from 192.168.1.100</data>
+        </event>
+        <event type='tcpd' index='4' ingestor='tcpdjsonrpc'>
+            <observer process='in.telnetd' pid='1140'>workstation-0FC1</observer>
+            <data>Connect from 192.168.1.100</data>
+        </event>
+    </timestamp>
+<!-- 
+            Second Count: 19
+-->
+    <timestamp unit='seconds' tcount='1' index='9'>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0090 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+    </timestamp>
+<!-- 
+            Second Count: 20
+-->
+    <timestamp unit='seconds' tcount='1' index='10'>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+    </timestamp>
+<!-- 
+            Second Count: 21
+-->
+    <timestamp unit='seconds' tcount='1' index='1'>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0001 - [PASS]</data>
+        </event>
+        <event type='syslog' index='2' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0002 - [PASS]</data>
+        </event>
+        <event type='syslog' index='3' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0003 - [PASS]</data>
+        </event>
+        <event type='syslog' index='4' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0004 - [PASS]</data>
+        </event>
+        <event type='syslog' index='5' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0005 - [PASS]</data>
+        </event>
+        <event type='snort' index='2' ingestor='snortjsonrpc'>
+            <observer process='snort' pid='3029'>ids-sensor-01</observer>
+            <data>[1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252</data>
+        </event>
+        <event type='snort' index='2' ingestor='snortjsonrpc'>
+            <observer process='snort' pid='3029'>ids-sensor-01</observer>
+            <data>[1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252</data>
+        </event>
+        <event type='snort' index='2' ingestor='snortjsonrpc'>
+            <observer process='snort' pid='3029'>ids-sensor-01</observer>
+            <data>[1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252</data>
+        </event>
+        <event type='snort' index='2' ingestor='snortjsonrpc'>
+            <observer process='snort' pid='3029'>ids-sensor-01</observer>
+            <data>[1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252</data>
+        </event>
+        <event type='snort' index='2' ingestor='snortjsonrpc'>
+            <observer process='snort' pid='3029'>ids-sensor-01</observer>
+            <data>[1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252</data>
+        </event>
+        <event type='snort' index='2' ingestor='snortjsonrpc'>
+            <observer process='snort' pid='3029'>ids-sensor-01</observer>
+            <data>[1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252</data>
+        </event>
+        <event type='snort' index='2' ingestor='snortjsonrpc'>
+            <observer process='snort' pid='3029'>ids-sensor-01</observer>
+            <data>[1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252</data>
+        </event>
+        <event type='snort' index='2' ingestor='snortjsonrpc'>
+            <observer process='snort' pid='3029'>ids-sensor-01</observer>
+            <data>[1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252</data>
+        </event>
+        <event type='snort' index='2' ingestor='snortjsonrpc'>
+            <observer process='snort' pid='3029'>ids-sensor-01</observer>
+            <data>[1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252</data>
+        </event>
+        <event type='snort' index='2' ingestor='snortjsonrpc'>
+            <observer process='snort' pid='3029'>ids-sensor-01</observer>
+            <data>[1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252</data>
+        </event>
+        <event type='snort' index='2' ingestor='snortjsonrpc'>
+            <observer process='snort' pid='3029'>ids-sensor-01</observer>
+            <data>[1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252</data>
+        </event>
+    </timestamp>
+<!-- 
+            Second Count: 22
+-->
+    <timestamp unit='seconds' tcount='1' index='2'>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0020 - [PASS]</data>
+        </event>
+        <event type='syslog' index='2' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0021 - [PASS]</data>
+        </event>
+        <event type='syslog' index='3' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0022 - [PASS]</data>
+        </event>
+        <event type='syslog' index='4' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0023 - [PASS]</data>
+        </event>
+        <event type='syslog' index='5' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0024 - [PASS]</data>
+        </event>
+        <event type='syslog' index='6' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0025 - [PASS]</data>
+        </event>
+        <event type='syslog' index='7' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0026 - [PASS]</data>
+        </event>
+        <event type='syslog' index='8' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0027 - [PASS]</data>
+        </event>
+        <event type='syslog' index='9' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0028 - [PASS]</data>
+        </event>
+        <event type='syslog' index='10' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0029 - [PASS]</data>
+        </event>
+    </timestamp>
+<!-- 
+            Second Count: 23
+-->
+    <timestamp unit='seconds' tcount='1' index='3'>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0030 - [PASS]</data>
+        </event>
+        <event type='syslog' index='2' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:003F - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 64174 ssh2</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 64174 ssh2</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 64174 ssh2</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 64174 ssh2</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 64174 ssh2</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 64174 ssh2</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 64174 ssh2</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 64174 ssh2</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 64174 ssh2</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 64174 ssh2</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 64174 ssh2</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 64174 ssh2</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 64174 ssh2</data>
+        </event>
+        <event type='cef' index='1' ingestor='cefjsonrpc'>
+            <observer process='' pid=''>server-01</observer>
+            <data>CEF:0|security|threatmanager|1.0|100|poison ivy trojan infection successfully stopped|10|src=192.168.1.100 dst=192.168.1.252 spt=1232</data>
+        </event>
+    </timestamp>
+<!-- 
+            Second Count: 24
+-->
+    <timestamp unit='seconds' tcount='1' index='4'>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0040 - [PASS]</data>
+        </event>
+        <event type='snort' index='2' ingestor='snortjsonrpc'>
+            <observer process='snort' pid='3029'>ids-sensor-01</observer>
+            <data>[1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252</data>
+        </event>
+    </timestamp>
+<!-- 
+            Second Count: 25
+-->
+    <timestamp unit='seconds' tcount='1' index='5'>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0050 - [PASS]</data>
+        </event>
+    </timestamp>
+<!-- 
+            Second Count: 26
+-->
+    <timestamp unit='seconds' tcount='1' index='6'>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0060 - [PASS]</data>
+        </event>
+        <event type='cef' index='1' ingestor='cefjsonrpc'>
+            <observer process='' pid=''>server-01</observer>
+            <data>CEF:0|security|threatmanager|1.0|100|poison ivy trojan infection successfully stopped|10|src=192.168.1.100 dst=192.168.1.252 spt=1232</data>
+        </event>
+    </timestamp>
+<!-- 
+            Second Count: 27
+-->
+    <timestamp unit='seconds' tcount='1' index='7'>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0070 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='cef' index='1' ingestor='cefjsonrpc'>
+            <observer process='' pid=''>server-01</observer>
+            <data>CEF:0|security|threatmanager|1.0|100|poison ivy trojan infection successfully stopped|10|src=192.168.1.100 dst=192.168.1.252 spt=1232</data>
+        </event>
+        <event type='cef' index='1' ingestor='cefjsonrpc'>
+            <observer process='' pid=''>server-01</observer>
+            <data>CEF:0|security|threatmanager|1.0|100|poison ivy trojan infection successfully stopped|10|src=192.168.1.100 dst=192.168.1.252 spt=1232</data>
+        </event>
+        <event type='cef' index='1' ingestor='cefjsonrpc'>
+            <observer process='' pid=''>server-01</observer>
+            <data>CEF:0|security|threatmanager|1.0|100|poison ivy trojan infection successfully stopped|10|src=192.168.1.100 dst=192.168.1.252 spt=1232</data>
+        </event>
+    </timestamp>
+<!-- 
+            Second Count: 28
+-->
+    <timestamp unit='seconds' tcount='1' index='8'>
+    <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0080 - [PASS]</data>
+        </event>
+    </timestamp>
+<!-- 
+            Second Count: 29
+-->
+    <timestamp unit='seconds' tcount='1' index='9'>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:0090 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+    </timestamp>
+<!-- 
+            Second Count: 30
+-->
+    <timestamp unit='seconds' tcount='1' index='10'>
+        <event type='snort' index='2' ingestor='snortjsonrpc'>
+            <observer process='snort' pid='3029'>ids-sensor-01</observer>
+            <data>[1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252</data>
+        </event>    
+        <event type='snort' index='2' ingestor='snortjsonrpc'>
+            <observer process='snort' pid='3029'>ids-sensor-01</observer>
+            <data>[1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.252</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='syslog' index='1' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check - 0000:00A0 - [PASS]</data>
+        </event>
+        <event type='tcpd' index='4' ingestor='tcpdjsonrpc'>
+            <observer process='in.telnetd' pid='1140'>workstation-0FC1</observer>
+            <data>Connect from 192.168.1.100</data>
+        </event>
+        <event type='cef' index='1' ingestor='cefjsonrpc'>
+            <observer process='' pid=''>server-01</observer>
+            <data>CEF:0|security|threatmanager|1.0|100|poison ivy trojan infection successfully stopped|10|src=192.168.1.100 dst=192.168.1.252 spt=1232</data>
+        </event>
+    </timestamp>
+</simulation>

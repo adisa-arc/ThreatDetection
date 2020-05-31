@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+    Title:      Cyber Attack Particle Simulation XML Data Definition - System Demonstration
+    Author:     Dr. Andrew Blyth, Ph.D.
+    Date:       10th June 2019.
+
+-->
+<simulation version='20190610001' time='0'>
+    <!-- TIME STAMP                                                                                       -->
+    <timestamp unit='seconds' tcount='1' index='1'>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.100.101 port 98765 ssh2</data>
+        </event>
+        <event type='syslog' index='14' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0003:0002 - [PASS]</data>
+        </event>
+        <event type='syslog' index='14' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0003:0002 - [PASS]</data>
+        </event>
+        <event type='syslog' index='14' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0003:0002 - [PASS]</data>
+        </event>
+        <event type='syslog' index='14' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0003:0002 - [PASS]</data>
+        </event>
+        <event type='syslog' index='14' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0003:0002 - [PASS]</data>
+        </event>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+        <event type='netflow' index='3' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:17" ident="102938471" type="netflow">
+                    <duration>00:57:50</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>§
+                </netflow>
+            </data>
+        </event>
+        <event type='evtx' index='4' ingestor='mweljsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <evt datetime="Mar 28 19:23:07" ident="7856384756" type="evt">
+                    <source>Security</source>
+                    <eventid>4624</eventid>
+                    <datetime>2019-03-28T19:23:07.182918260Z</datetime>
+                    <user>ajcblyth</user>
+                    <computer>dc1.adisa.global</computer>
+                    <processid>61762</processid>
+                    <threadid>1920</threadid>
+                    <keywords>logon</keywords>
+                </evt>
+            </data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+    </timestamp>
+
+    <!-- TIME STAMP                                                                                       -->
+    <timestamp unit='seconds' tcount='1' index='2'>
+        <event type='snort' index='5' ingestor='snortjsonrpc'>
+            <observer process='snort' pid='3029'>ids-sensor-01</observer>
+            <data>[1:368:10] PROTOCOL-ICMP PING BSDtype [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.100 -> 192.168.1.111</data>
+        </event>
+        <event type='cef' index='1' ingestor='cefjsonrpc'>
+            <observer process='' pid=''>server-01</observer>
+            <data>CEF:0|security|threatmanager|1.0|100|poison ivy trojan infection successfully stopped|10|src=192.168.1.100 dst=192.168.1.252 spt=1232</data>
+        </event>
+        <event type='cef' index='1' ingestor='cefjsonrpc'>
+            <observer process='' pid=''>server-01</observer>
+            <data>CEF:0|security|threatmanager|1.0|100|poison ivy trojan infection successfully stopped|10|src=192.168.1.100 dst=192.168.1.252 spt=1232</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 68974 ssh2</data>
+        </event>
+        <event type='netflow' index='3' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:17" ident="102938471" type="netflow">
+                    <duration>00:57:50</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>§
+                </netflow>
+            </data>
+        </event>
+        <event type='ftpd' index='2' ingestor='ftpdjsonrpc'>
+            <observer process='50' pid='896242'>192.168.37.64</observer>
+            <data>/home/ajcblyth/datalog.tar.gz b _ o r ajcblyth ftp 0 * c</data>
+        </event>
+        <event type='ftpd' index='2' ingestor='ftpdjsonrpc'>
+            <observer process='50' pid='896242'>192.168.37.64</observer>
+            <data>/home/ajcblyth/datalog.tar.gz b _ o r ajcblyth ftp 0 * c</data>
+        </event>
+        <event type='ftpd' index='2' ingestor='ftpdjsonrpc'>
+            <observer process='50' pid='896242'>192.168.37.64</observer>
+            <data>/home/ajcblyth/datalog.tar.gz b _ o r ajcblyth ftp 0 * c</data>
+        </event>
+    </timestamp>
+
+
+    <!-- TIME STAMP                                                                                       -->
+    <timestamp unit='seconds' tcount='1' index='3'>
+        <event type='syslog' index='14' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0003:0002 - [PASS]</data>
+        </event>
+        <event type='syslog' index='14' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0003:0002 - [PASS]</data>
+        </event>
+        <event type='syslog' index='14' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0003:0002 - [PASS]</data>
+        </event>
+        <event type='syslog' index='14' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0003:0002 - [PASS]</data>
+        </event>
+        <event type='syslog' index='14' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0003:0002 - [PASS]</data>
+        </event>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <!-- 
+        
+            TIME EVENT                                                                                       
+        
+        -->
+        <event type='snort' index='1' ingestor='snortjsonrpc'>
+            <observer process='snort' pid='3029'>ids-sensor-01</observer>
+            <data>[1:1257:15] SERVER-OTHER Winnuke attack [Classification: Attempted Denial of Service] [Priority: 2] {TCP} 192.168.1.100:64173 -> 192.168.1.252:22</data>
+        </event>
+        <event type='cef' index='1' ingestor='cefjsonrpc'>
+            <observer process='' pid=''>server-01</observer>
+            <data>CEF:0|security|threatmanager|1.0|100|poison ivy trojan infection successfully stopped|10|src=192.168.1.100 dst=192.168.1.252 spt=1232</data>
+        </event>
+    </timestamp>
+
+
+    <!-- TIME STAMP                                                                                       -->
+    <timestamp unit='seconds' tcount='1' index='4'>
+        <event type='syslog' index='14' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0003:0002 - [PASS]</data>
+        </event>
+        <event type='syslog' index='14' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0003:0002 - [PASS]</data>
+        </event>
+        <event type='syslog' index='14' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0003:0002 - [PASS]</data>
+        </event>
+        <event type='syslog' index='14' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0003:0002 - [PASS]</data>
+        </event>
+        <event type='syslog' index='14' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0003:0002 - [PASS]</data>
+        </event>
+        <event type='evtx' index='4' ingestor='mweljsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <evt datetime="Mar 28 19:23:07" ident="7856384756" type="evt">
+                    <source>Security</source>
+                    <eventid>4624</eventid>
+                    <datetime>2019-03-28T19:23:07.182918260Z</datetime>
+                    <user>ajcblyth</user>
+                    <computer>dc1.adisa.global</computer>
+                    <processid>61762</processid>
+                    <threadid>1920</threadid>
+                    <keywords>logon</keywords>
+                </evt>
+            </data>
+        </event>
+        <event type='evtx' index='4' ingestor='mweljsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <evt datetime="Mar 28 19:23:07" ident="7856384756" type="evt">
+                    <source>Security</source>
+                    <eventid>4624</eventid>
+                    <datetime>2019-03-28T19:23:07.182918260Z</datetime>
+                    <user>ajcblyth</user>
+                    <computer>dc1.adisa.global</computer>
+                    <processid>61762</processid>
+                    <threadid>1920</threadid>
+                    <keywords>logon</keywords>
+                </evt>
+            </data>
+        </event>
+        <!-- 
+        
+            TIME EVENT                                                                                       
+        
+        -->
+        <event type='snort' index='1' ingestor='snortjsonrpc'>
+            <observer process='snort' pid='3029'>ids-sensor-01</observer>
+            <data>[1:1257:15] SERVER-OTHER Winnuke attack [Classification: Attempted Denial of Service] [Priority: 2] {TCP} 192.168.1.100:64173 -> 192.168.1.252:22</data>
+        </event>
+        <event type='ftpd' index='2' ingestor='ftpdjsonrpc'>
+            <observer process='50' pid='896242'>192.168.37.64</observer>
+            <data>/home/ajcblyth/datalog.tar.gz b _ o r ajcblyth ftp 0 * c</data>
+        </event>
+        <event type='ftpd' index='2' ingestor='ftpdjsonrpc'>
+            <observer process='50' pid='896242'>192.168.37.64</observer>
+            <data>/home/ajcblyth/datalog.tar.gz b _ o r ajcblyth ftp 0 * c</data>
+        </event>
+    </timestamp>
+
+
+    <!-- TIME STAMP                                                                                       -->
+    <timestamp unit='seconds' tcount='1' index='5'>
+        
+        <event type='cef' index='1' ingestor='cefjsonrpc'>
+            <observer process='' pid=''>server-01</observer>
+            <data>CEF:0|security|threatmanager|1.0|100|poison ivy trojan infection successfully stopped|10|src=192.168.1.100 dst=192.168.1.252 spt=1232</data>
+        </event>
+        <event type='cef' index='1' ingestor='cefjsonrpc'>
+            <observer process='' pid=''>server-01</observer>
+            <data>CEF:0|security|threatmanager|1.0|100|poison ivy trojan infection successfully stopped|10|src=192.168.1.100 dst=192.168.1.252 spt=1232</data>
+        </event>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+        <event type='netflow' index='3' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:17" ident="102938471" type="netflow">
+                    <duration>00:57:50</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>§
+                </netflow>
+            </data>
+        </event>
+        <event type='netflow' index='3' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:17" ident="102938471" type="netflow">
+                    <duration>00:57:50</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>§
+                </netflow>
+            </data>
+        </event>
+    </timestamp>
+
+
+
+    <!-- TIME STAMP                                                                                       -->
+    <timestamp unit='seconds' tcount='1' index='6'>
+        <event type='syslog' index='14' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0003:0002 - [PASS]</data>
+        </event>
+        <event type='syslog' index='14' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0003:0002 - [PASS]</data>
+        </event>
+        <event type='syslog' index='14' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0003:0002 - [PASS]</data>
+        </event>
+        <event type='syslog' index='14' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0003:0002 - [PASS]</data>
+        </event>
+        <event type='syslog' index='14' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0003:0002 - [PASS]</data>
+        </event>
+        <event type='tcpd' index='4' ingestor='tcpdjsonrpc'>
+            <observer process='in.telnetd' pid='1140'>workstation-0FC1</observer>
+            <data>Connect from 192.168.1.100</data>
+        </event>
+        <event type='tcpd' index='4' ingestor='tcpdjsonrpc'>
+            <observer process='in.telnetd' pid='1140'>workstation-0FC1</observer>
+            <data>Connect from 192.168.1.100</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 68974 ssh2</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 68974 ssh2</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 68974 ssh2</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 68974 ssh2</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 68974 ssh2</data>
+        </event>
+        <event type='sshd' index='5' ingestor='sshdjsonrpc'>
+            <observer process='sshd' pid='11684'>workstation-0FC1</observer>
+            <data>Failed password for ajcblyth from 192.168.1.100 port 68974 ssh2</data>
+        </event>
+        <event type='ftpd' index='2' ingestor='ftpdjsonrpc'>
+            <observer process='50' pid='896242'>192.168.37.64</observer>
+            <data>/home/ajcblyth/datalog.tar.gz b _ o r ajcblyth ftp 0 * c</data>
+        </event>
+        <event type='ftpd' index='2' ingestor='ftpdjsonrpc'>
+            <observer process='50' pid='896242'>192.168.37.64</observer>
+            <data>/home/ajcblyth/datalog.tar.gz b _ o r ajcblyth ftp 0 * c</data>
+        </event>
+        <event type='ftpd' index='2' ingestor='ftpdjsonrpc'>
+            <observer process='50' pid='896242'>192.168.37.64</observer>
+            <data>/home/ajcblyth/datalog.tar.gz b _ o r ajcblyth ftp 0 * c</data>
+        </event>
+        <event type='ftpd' index='2' ingestor='ftpdjsonrpc'>
+            <observer process='50' pid='896242'>192.168.37.64</observer>
+            <data>/home/ajcblyth/datalog.tar.gz b _ o r ajcblyth ftp 0 * c</data>
+        </event>
+        <event type='ftpd' index='2' ingestor='ftpdjsonrpc'>
+            <observer process='50' pid='896242'>192.168.37.64</observer>
+            <data>/home/ajcblyth/datalog.tar.gz b _ o r ajcblyth ftp 0 * c</data>
+        </event>
+        <event type='ftpd' index='2' ingestor='ftpdjsonrpc'>
+            <observer process='50' pid='896242'>192.168.37.64</observer>
+            <data>/home/ajcblyth/datalog.tar.gz b _ o r ajcblyth ftp 0 * c</data>
+        </event>
+    </timestamp>
+
+
+    <!-- TIME STAMP                                                                                       -->
+    <timestamp unit='seconds' tcount='1' index='7'>
+        <event type='cef' index='1' ingestor='cefjsonrpc'>
+            <observer process='' pid=''>server-01</observer>
+            <data>CEF:0|security|threatmanager|1.0|100|poison ivy trojan infection successfully stopped|10|src=192.168.1.100 dst=192.168.1.252 spt=1232</data>
+        </event>
+        <event type='tcpd' index='4' ingestor='tcpdjsonrpc'>
+            <observer process='in.telnetd' pid='1140'>workstation-0FC1</observer>
+            <data>Connect from 192.168.1.100</data>
+        </event>
+        <!-- 
+        
+            TIME EVENT                                                                                       
+        
+        -->
+        <event type='snort' index='1' ingestor='snortjsonrpc'>
+            <observer process='snort' pid='3029'>ids-sensor-01</observer>
+            <data>[1:1257:15] SERVER-OTHER Winnuke attack [Classification: Attempted Denial of Service] [Priority: 2] {TCP} 192.168.1.100:64173 -> 192.168.1.252:2222</data>
+        </event>
+        <event type='netflow' index='3' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:17" ident="102938471" type="netflow">
+                    <duration>00:57:50</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>§
+                </netflow>
+            </data>
+        </event>
+        <event type='netflow' index='3' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:17" ident="102938471" type="netflow">
+                    <duration>00:57:50</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>§
+                </netflow>
+            </data>
+        </event>
+    </timestamp>
+
+    <!-- TIME STAMP                                                                                       -->
+    <timestamp unit='seconds' tcount='1' index='8'>
+        <event type='syslog' index='14' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0003:0002 - [PASS]</data>
+        </event>
+        <event type='syslog' index='14' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0003:0002 - [PASS]</data>
+        </event>
+        <event type='syslog' index='14' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0003:0002 - [PASS]</data>
+        </event>
+        <event type='tcpd' index='4' ingestor='tcpdjsonrpc'>
+            <observer process='in.telnetd' pid='1140'>workstation-0FC1</observer>
+            <data>Connect from 192.168.1.100</data>
+        </event>
+    </timestamp>
+
+    <!-- TIME STAMP                                                                                       -->
+    <timestamp unit='seconds' tcount='1' index='9'>
+        <event type='tcpd' index='4' ingestor='tcpdjsonrpc'>
+            <observer process='in.telnetd' pid='1140'>workstation-0FC1</observer>
+            <data>Connect from 192.168.1.100</data>
+        </event>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+    </timestamp>
+
+    <!-- TIME STAMP                                                                                       -->
+    <timestamp unit='seconds' tcount='1' index='10'>
+        <event type='syslog' index='14' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0003:0002 - [PASS]</data>
+        </event>
+        <event type='syslog' index='14' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0003:0002 - [PASS]</data>
+        </event>
+        <event type='syslog' index='14' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0003:0002 - [PASS]</data>
+        </event>
+        <event type='syslog' index='14' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0003:0002 - [PASS]</data>
+        </event>
+        <event type='syslog' index='14' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0003:0002 - [PASS]</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+        <event type='ncsa' index='1' ingestor='ncsajsonrpc'>
+            <observer process='+0700' pid='ajcblyth'>192.168.37.64</observer>
+            <data>"GET /index.htmlf HTTP/1.0" 200 2326</data>
+        </event>
+    </timestamp>
+
+    <!-- TIME STAMP                                                                                       -->
+    <timestamp unit='seconds' tcount='1' index='11'>
+    <event type='syslog' index='14' ingestor='syslogjsonrpc'>
+            <observer process='systemd' pid='0'>workstation-0FC1</observer>
+            <data>System logic bus check ID 0003:0002 - [PASS]</data>
+        </event>
+        <event type='tcpd' index='4' ingestor='tcpdjsonrpc'>
+            <observer process='in.telnetd' pid='1140'>workstation-0FC1</observer>
+            <data>Connect from 192.168.1.100</data>
+        </event>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+        <event type='dns' index='1' ingestor='dnsjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>XX /10.63.148.85/www.adisa.global/A</data>
+        </event>
+        <event type='netflow' index='3' ingestor='netflowjsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <netflow datetime="Mar 28 19:23:17" ident="102938471" type="netflow">
+                    <duration>00:57:50</duration>
+                    <protocol>TCP</protocol>
+                    <sourceip>192.168.30.142</sourceip>
+                    <sourceport>22</sourceport>
+                    <destinationip>192.168.30.142</destinationip>
+                    <destinationport>22</destinationport>
+                    <packets>1029</packets>
+                    <bytes>901827</bytes>§
+                </netflow>
+            </data>
+        </event>
+        <event type='evtx' index='4' ingestor='mweljsonrpc'>
+            <observer process='' pid=''></observer>
+            <data>
+                <evt datetime="Mar 28 19:23:07" ident="7856384756" type="evt">
+                    <source>Security</source>
+                    <eventid>4624</eventid>
+                    <datetime>2019-03-28T19:23:07.182918260Z</datetime>
+                    <user>ajcblyth</user>
+                    <computer>dc1.adisa.global</computer>
+                    <processid>61762</processid>
+                    <threadid>1920</threadid>
+                    <keywords>logon</keywords>
+                </evt>
+            </data>
+        </event>
+        <event type='ftpd' index='2' ingestor='ftpdjsonrpc'>
+            <observer process='50' pid='896242'>192.168.37.64</observer>
+            <data>/home/ajcblyth/datalog.tar.gz b _ o r ajcblyth ftp 0 * c</data>
+        </event>
+        <event type='ftpd' index='2' ingestor='ftpdjsonrpc'>
+            <observer process='50' pid='896242'>192.168.37.64</observer>
+            <data>/home/ajcblyth/datalog.tar.gz b _ o r ajcblyth ftp 0 * c</data>
+        </event>
+        <event type='ftpd' index='2' ingestor='ftpdjsonrpc'>
+            <observer process='50' pid='896242'>192.168.37.64</observer>
+            <data>/home/ajcblyth/datalog.tar.gz b _ o r ajcblyth ftp 0 * c</data>
+        </event>
+        <event type='ftpd' index='2' ingestor='ftpdjsonrpc'>
+            <observer process='50' pid='896242'>192.168.37.64</observer>
+            <data>/home/ajcblyth/datalog.tar.gz b _ o r ajcblyth ftp 0 * c</data>
+        </event>
+    </timestamp>
+</simulation>
+
+
+
+

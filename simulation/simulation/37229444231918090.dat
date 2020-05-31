@@ -1,0 +1,1 @@
+Jun 20 18:10:28 ids-sensor-01 snort[3029]: [1:1257:15] SERVER-OTHER Winnuke attack [Classification: Attempted Denial of Service] [Priority: 2] {TCP} 192.168.1.100:64173 -> 192.168.1.252:22

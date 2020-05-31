@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataparticles>
+    <dataparticle name="Workstation-01" ident="10291092834901">
+        <datatime>Apr 29 14:19:11</datatime>
+        <external_id>Windows 10</external_id>
+        <external_id>10.193.218.21</external_id>
+    </dataparticle>
+    <dataparticle name="Workstation-02" ident="10291092834902">
+        <datatime>Apr 29 14:19:11</datatime>
+        <external_id>Windows 7 Pro</external_id>
+        <external_id>10.193.218.22</external_id>
+    </dataparticle>
+    <dataparticle name="Workstation-03" ident="10291092834903">
+        <datatime>Apr 29 14:19:11</datatime>
+        <external_id>Windows 7 Pro</external_id>
+        <external_id>10.193.218.23</external_id>
+    </dataparticle>
+    <dataparticle name="Workstation-04" ident="10291092834904">
+        <datatime>Apr 29 14:19:11</datatime>
+        <external_id>Windows 8 Pro</external_id>
+        <external_id>10.193.218.24</external_id>
+    </dataparticle>
+    <dataparticle name="Workstation-05" ident="10291092834905">
+        <datatime>Apr 29 14:19:11</datatime>
+        <external_id>Windows 8 Pro</external_id>
+        <external_id>10.193.218.205</external_id>
+    </dataparticle>
+</dataparticles>

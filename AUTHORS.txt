@@ -1,0 +1,7 @@
+ This is the official list of  authors for copyright purposes.
+
+# Names should be added to this file as one of
+#     Individual's name <email1>
+#     Individual's name <email1> <email2> <emailN>
+
+Dr. Andrew Blyth, PhD <andrew.blyth@adisa.global>
